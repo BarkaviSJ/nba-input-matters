@@ -1,0 +1,31 @@
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── environments ────────────────────────────────────
+.venv/
+venv/
+.env
+.env.*
+
+# ── IDEs / editors ──────────────────────────────────
+.vscode/
+.idea/
+*.sw?
+*~
+
+
+# ── logs & misc ─────────────────────────────────────
+*.log
+.DS_Store
+
+# ── local SSH keys we never want in the repo ───────
+gitssh
+gitssh.pub

@@ -1,0 +1,475 @@
+Time,Period,Team,Primary Player,Secondary Player,Play Description,Event Type,Action Type,Outcome,Distance (ft),Current Points Scored,IND Cum. Score,SAS Cum. Score
+12:00.0,Q1,Indiana Pacers,M. Turner,,Jump ball:M. Turner vs. V. Wembanyama(H. Barnes gains possession),Jump Ball,Jump Ball,N/A,N/A,No points scored,IND: 0,SAS: 0
+11:44.0,Q1,San Antonio Spurs,C. Paul,,Turnover by C. Paul(lost ball; steal by A. Nembhard),Turnover,lost ball; steal by A. Nembhard,N/A,N/A,No points scored,IND: 0,SAS: 0
+11:41.0,Q1,Indiana Pacers,A. Nembhard,T. Haliburton,A. Nembhard makes 2-pt layup from 3 ft (assist by T. Haliburton),Shot,Layup,Made,3 ft,IND: 2,IND: 2,SAS: 0
+11:26.0,Q1,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 2-pt jump shot from 8 ft,Shot,Jump Shot,Missed,8 ft,No points scored,IND: 2,SAS: 0
+11:25.0,Q1,Indiana Pacers,B. Mathurin,,Defensive rebound by B. Mathurin,Rebound,Defensive,N/A,N/A,No points scored,IND: 2,SAS: 0
+11:21.0,Q1,Indiana Pacers,A. Nembhard,,A. Nembhard misses 2-pt jump shot from 18 ft,Shot,Jump Shot,Missed,18 ft,No points scored,IND: 2,SAS: 0
+11:18.0,Q1,San Antonio Spurs,D. Vassell,,Defensive rebound by D. Vassell,Rebound,Defensive,N/A,N/A,No points scored,IND: 2,SAS: 0
+11:11.0,Q1,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 2,SAS: 0
+11:11.0,Q1,Indiana Pacers,B. Mathurin,,Defensive rebound by B. Mathurin,Rebound,Defensive,N/A,N/A,No points scored,IND: 2,SAS: 0
+10:56.0,Q1,Indiana Pacers,M. Turner,,M. Turner misses 3-pt jump shot from 24 ft,Shot,Jump Shot,Missed,24 ft,No points scored,IND: 2,SAS: 0
+10:52.0,Q1,San Antonio Spurs,D. Vassell,,Defensive rebound by D. Vassell,Rebound,Defensive,N/A,N/A,No points scored,IND: 2,SAS: 0
+10:34.0,Q1,San Antonio Spurs,H. Barnes,,H. Barnes makes 2-pt jump shot from 8 ft,Shot,Jump Shot,Made,8 ft,SAS: 2,IND: 2,SAS: 2
+10:21.0,Q1,Indiana Pacers,B. Mathurin,A. Nembhard,B. Mathurin makes 3-pt jump shot from 24 ft (assist by A. Nembhard),Shot,Jump Shot,Made,24 ft,IND: 3,IND: 5,SAS: 2
+10:01.0,Q1,San Antonio Spurs,V. Wembanyama,H. Barnes,V. Wembanyama makes 3-pt jump shot from 28 ft (assist by H. Barnes),Shot,Jump Shot,Made,28 ft,SAS: 3,IND: 5,SAS: 5
+9:40.0,Q1,Indiana Pacers,S. Castle,M. Turner,Shooting foul by S. Castle(drawn by M. Turner),Foul,Shooting,N/A,N/A,No points scored,IND: 5,SAS: 5
+9:40.0,Q1,Indiana Pacers,M. Turner,,M. Turner makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 6,SAS: 5
+9:40.0,Q1,Indiana Pacers,M. Turner,,M. Turner makes free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 7,SAS: 5
+9:29.0,Q1,San Antonio Spurs,S. Castle,C. Paul,S. Castle makes 2-pt jump shot from 8 ft (assist by C. Paul),Shot,Jump Shot,Made,8 ft,SAS: 2,IND: 7,SAS: 7
+9:16.0,Q1,Indiana Pacers,A. Nembhard,,A. Nembhard makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,IND: 2,IND: 9,SAS: 7
+8:47.0,Q1,San Antonio Spurs,S. Castle,,S. Castle misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 9,SAS: 7
+8:45.0,Q1,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 9,SAS: 7
+8:40.0,Q1,Indiana Pacers,M. Turner,,M. Turner misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 9,SAS: 7
+8:38.0,Q1,San Antonio Spurs,S. Castle,,Defensive rebound by S. Castle,Rebound,Defensive,N/A,N/A,No points scored,IND: 9,SAS: 7
+8:34.0,Q1,San Antonio Spurs,V. Wembanyama,S. Castle,V. Wembanyama makes 2-pt dunk from 1 ft (assist by S. Castle),Shot,Dunk,Made,1 ft,SAS: 2,IND: 9,SAS: 9
+8:20.0,Q1,Indiana Pacers,A. Nembhard,T. Haliburton,A. Nembhard makes 2-pt layup from 4 ft (assist by T. Haliburton),Shot,Layup,Made,4 ft,IND: 2,IND: 11,SAS: 9
+8:08.0,Q1,San Antonio Spurs,S. Castle,,S. Castle misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 11,SAS: 9
+8:03.0,Q1,Indiana Pacers,T. Haliburton,,Defensive rebound by T. Haliburton,Rebound,Defensive,N/A,N/A,No points scored,IND: 11,SAS: 9
+7:56.0,Q1,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt hook shot from 4 ft,Shot,Hook Shot,Missed,4 ft,No points scored,IND: 11,SAS: 9
+7:53.0,Q1,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 11,SAS: 9
+7:50.0,Q1,Indiana Pacers,B. Mathurin,,B. Mathurin misses 3-pt jump shot from 29 ft,Shot,Jump Shot,Missed,29 ft,No points scored,IND: 11,SAS: 9
+7:47.0,Q1,Indiana Pacers,B. Mathurin,,Offensive rebound by B. Mathurin,Rebound,Offensive,N/A,N/A,No points scored,IND: 11,SAS: 9
+7:42.0,Q1,Indiana Pacers,P. Siakam,B. Mathurin,P. Siakam makes 2-pt layup from 2 ft (assist by B. Mathurin),Shot,Layup,Made,2 ft,IND: 2,IND: 13,SAS: 9
+7:42.0,Q1,San Antonio Spurs,,,San Antonio full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 13,SAS: 9
+7:23.0,Q1,San Antonio Spurs,H. Barnes,C. Paul,H. Barnes makes 2-pt layup from 3 ft (assist by C. Paul),Shot,Layup,Made,3 ft,SAS: 2,IND: 13,SAS: 11
+7:05.0,Q1,Indiana Pacers,T. Haliburton,,T. Haliburton makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,IND: 2,IND: 15,SAS: 11
+6:40.0,Q1,San Antonio Spurs,S. Castle,,S. Castle misses 2-pt jump shot from 12 ft,Shot,Jump Shot,Missed,12 ft,No points scored,IND: 15,SAS: 11
+6:37.0,Q1,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 15,SAS: 11
+6:28.0,Q1,Indiana Pacers,B. Mathurin,,B. Mathurin makes 3-pt jump shot from 28 ft,Shot,Jump Shot,Made,28 ft,IND: 3,IND: 18,SAS: 11
+6:11.0,Q1,San Antonio Spurs,H. Barnes,S. Castle,H. Barnes makes 3-pt jump shot from 22 ft (assist by S. Castle),Shot,Jump Shot,Made,22 ft,SAS: 3,IND: 18,SAS: 14
+6:02.0,Q1,Indiana Pacers,A. Nembhard,,A. Nembhard misses 2-pt jump shot from 14 ft,Shot,Jump Shot,Missed,14 ft,No points scored,IND: 18,SAS: 14
+5:58.0,Q1,San Antonio Spurs,H. Barnes,,Defensive rebound by H. Barnes,Rebound,Defensive,N/A,N/A,No points scored,IND: 18,SAS: 14
+5:48.0,Q1,San Antonio Spurs,H. Barnes,,H. Barnes makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,SAS: 2,IND: 18,SAS: 16
+5:38.0,Q1,Indiana Pacers,P. Siakam,M. Turner,P. Siakam makes 2-pt layup from 4 ft (assist by M. Turner),Shot,Layup,Made,4 ft,IND: 2,IND: 20,SAS: 16
+5:25.0,Q1,San Antonio Spurs,H. Barnes,,H. Barnes misses 3-pt jump shot from 24 ft,Shot,Jump Shot,Missed,24 ft,No points scored,IND: 20,SAS: 16
+5:22.0,Q1,Indiana Pacers,P. Siakam,,Defensive rebound by P. Siakam,Rebound,Defensive,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:14.0,Q1,Indiana Pacers,C. Paul,M. Turner,Personal foul by C. Paul(drawn by M. Turner),Foul,Personal,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:14.0,Q1,Indiana Pacers,O. Toppin,,O. Toppin enters the game for P. Siakam,Substitution,Enters Game,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:14.0,Q1,San Antonio Spurs,K. Johnson,,K. Johnson enters the game for S. Castle,Substitution,Enters Game,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:14.0,Q1,San Antonio Spurs,T. Jones,,T. Jones enters the game for C. Paul,Substitution,Enters Game,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:14.0,Q1,San Antonio Spurs,J. Sochan,,J. Sochan enters the game for V. Wembanyama,Substitution,Enters Game,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:03.0,Q1,Indiana Pacers,K. Johnson,A. Nembhard,Shooting foul by K. Johnson(drawn by A. Nembhard),Foul,Shooting,N/A,N/A,No points scored,IND: 20,SAS: 16
+5:03.0,Q1,Indiana Pacers,A. Nembhard,,A. Nembhard makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 21,SAS: 16
+5:03.0,Q1,Indiana Pacers,T. Bryant,,T. Bryant enters the game for B. Mathurin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 21,SAS: 16
+5:03.0,Q1,Indiana Pacers,A. Nesmith,,A. Nesmith enters the game for M. Turner,Substitution,Enters Game,N/A,N/A,No points scored,IND: 21,SAS: 16
+5:03.0,Q1,Indiana Pacers,A. Nembhard,,A. Nembhard misses free throw 2 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 21,SAS: 16
+5:02.0,Q1,San Antonio Spurs,H. Barnes,,Defensive rebound by H. Barnes,Rebound,Defensive,N/A,N/A,No points scored,IND: 21,SAS: 16
+4:54.0,Q1,San Antonio Spurs,H. Barnes,,H. Barnes makes 2-pt jump shot from 6 ft,Shot,Jump Shot,Made,6 ft,SAS: 2,IND: 21,SAS: 18
+4:41.0,Q1,Indiana Pacers,D. Vassell,A. Nesmith,Personal foul by D. Vassell(drawn by A. Nesmith),Foul,Personal,N/A,N/A,No points scored,IND: 21,SAS: 18
+4:32.0,Q1,Indiana Pacers,T. Bryant,A. Nembhard,T. Bryant makes 2-pt layup from 5 ft (assist by A. Nembhard),Shot,Layup,Made,5 ft,IND: 2,IND: 23,SAS: 18
+4:13.0,Q1,San Antonio Spurs,T. Jones,,Turnover by T. Jones(bad pass; steal by T. Bryant),Turnover,bad pass; steal by T. Bryant,N/A,N/A,No points scored,IND: 23,SAS: 18
+4:02.0,Q1,Indiana Pacers,T. Haliburton,,T. Haliburton misses 2-pt jump shot from 7 ft,Shot,Jump Shot,Missed,7 ft,No points scored,IND: 23,SAS: 18
+3:59.0,Q1,San Antonio Spurs,J. Sochan,,Defensive rebound by J. Sochan,Rebound,Defensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:52.0,Q1,San Antonio Spurs,D. Vassell,,D. Vassell misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 23,SAS: 18
+3:49.0,Q1,Indiana Pacers,O. Toppin,,Defensive rebound by O. Toppin,Rebound,Defensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:45.0,Q1,Indiana Pacers,T. Haliburton,,T. Haliburton misses 3-pt jump shot from 30 ft,Shot,Jump Shot,Missed,30 ft,No points scored,IND: 23,SAS: 18
+3:43.0,Q1,San Antonio Spurs,K. Johnson,,Defensive rebound by K. Johnson,Rebound,Defensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:35.0,Q1,San Antonio Spurs,K. Johnson,,Turnover by K. Johnson(lost ball; steal by T. Bryant),Turnover,lost ball; steal by T. Bryant,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:31.0,Q1,Indiana Pacers,O. Toppin,,O. Toppin misses 2-pt layup from 5 ft,Shot,Layup,Missed,5 ft,No points scored,IND: 23,SAS: 18
+3:27.0,Q1,Indiana Pacers,A. Nesmith,,Offensive rebound by A. Nesmith,Rebound,Offensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:27.0,Q1,Indiana Pacers,A. Nesmith,,A. Nesmith misses 2-pt dunk at rim,Shot,Dunk,Missed,N/A,No points scored,IND: 23,SAS: 18
+3:27.0,Q1,Indiana Pacers,T. Haliburton,,Offensive rebound by T. Haliburton,Rebound,Offensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:25.0,Q1,Indiana Pacers,O. Toppin,,O. Toppin misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 23,SAS: 18
+3:25.0,Q1,San Antonio Spurs,,,Defensive rebound by Team,Rebound,Defensive,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:25.0,Q1,Indiana Pacers,T. Bryant,H. Barnes,Loose ball foul by T. Bryant(drawn by H. Barnes),Foul,Loose Ball,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:25.0,Q1,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:25.0,Q1,Indiana Pacers,T. McConnell,,T. McConnell enters the game for T. Haliburton,Substitution,Enters Game,N/A,N/A,No points scored,IND: 23,SAS: 18
+3:12.0,Q1,San Antonio Spurs,H. Barnes,,Turnover by H. Barnes(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 23,SAS: 18
+2:58.0,Q1,Indiana Pacers,A. Nesmith,,Turnover by A. Nesmith(lost ball; steal by J. Sochan),Turnover,lost ball; steal by J. Sochan,N/A,N/A,No points scored,IND: 23,SAS: 18
+2:53.0,Q1,San Antonio Spurs,H. Barnes,,Turnover by H. Barnes(bad pass; steal by T. McConnell),Turnover,bad pass; steal by T. McConnell,N/A,N/A,No points scored,IND: 23,SAS: 18
+2:41.0,Q1,Indiana Pacers,T. Bryant,O. Toppin,T. Bryant makes 2-pt hook shot from 6 ft (assist by O. Toppin),Shot,Hook Shot,Made,6 ft,IND: 2,IND: 25,SAS: 18
+2:16.0,Q1,San Antonio Spurs,H. Barnes,,H. Barnes misses 3-pt jump shot from 47 ft,Shot,Jump Shot,Missed,47 ft,No points scored,IND: 25,SAS: 18
+2:14.0,Q1,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 25,SAS: 18
+2:14.0,Q1,San Antonio Spurs,,,Turnover by Team (shot clock),Turnover,shot clock,N/A,N/A,No points scored,IND: 25,SAS: 18
+2:14.0,Q1,Indiana Pacers,M. Turner,,M. Turner enters the game for T. Bryant,Substitution,Enters Game,N/A,N/A,No points scored,IND: 25,SAS: 18
+2:14.0,Q1,San Antonio Spurs,J. Champagnie,,J. Champagnie enters the game for H. Barnes,Substitution,Enters Game,N/A,N/A,No points scored,IND: 25,SAS: 18
+2:14.0,Q1,San Antonio Spurs,V. Wembanyama,,V. Wembanyama enters the game for D. Vassell,Substitution,Enters Game,N/A,N/A,No points scored,IND: 25,SAS: 18
+2:06.0,Q1,Indiana Pacers,T. McConnell,A. Nembhard,T. McConnell makes 2-pt layup from 3 ft (assist by A. Nembhard),Shot,Layup,Made,3 ft,IND: 2,IND: 27,SAS: 18
+1:46.0,Q1,San Antonio Spurs,T. Jones,,T. Jones misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 27,SAS: 18
+1:44.0,Q1,San Antonio Spurs,K. Johnson,,Offensive rebound by K. Johnson,Rebound,Offensive,N/A,N/A,No points scored,IND: 27,SAS: 18
+1:43.0,Q1,San Antonio Spurs,K. Johnson,,K. Johnson makes 2-pt layup from 4 ft,Shot,Layup,Made,4 ft,SAS: 2,IND: 27,SAS: 20
+1:27.0,Q1,Indiana Pacers,T. McConnell,,Turnover by T. McConnell(bad pass; steal by J. Sochan),Turnover,bad pass; steal by J. Sochan,N/A,N/A,No points scored,IND: 27,SAS: 20
+1:21.0,Q1,San Antonio Spurs,J. Sochan,T. Jones,J. Sochan makes 2-pt layup from 1 ft (assist by T. Jones),Shot,Layup,Made,1 ft,SAS: 2,IND: 27,SAS: 22
+1:07.0,Q1,Indiana Pacers,M. Turner,,M. Turner misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 27,SAS: 22
+1:03.0,Q1,Indiana Pacers,T. McConnell,,Offensive rebound by T. McConnell,Rebound,Offensive,N/A,N/A,No points scored,IND: 27,SAS: 22
+1:00.0,Q1,Indiana Pacers,A. Nesmith,T. McConnell,A. Nesmith makes 3-pt jump shot from 26 ft (assist by T. McConnell),Shot,Jump Shot,Made,26 ft,IND: 3,IND: 30,SAS: 22
+0:55.0,Q1,San Antonio Spurs,T. McConnell,T. Jones,Personal foul by T. McConnell(drawn by T. Jones),Foul,Personal,N/A,N/A,No points scored,IND: 30,SAS: 22
+0:55.0,Q1,Indiana Pacers,B. Sheppard,,B. Sheppard enters the game for A. Nembhard,Substitution,Enters Game,N/A,N/A,No points scored,IND: 30,SAS: 22
+0:55.0,Q1,Indiana Pacers,P. Siakam,,P. Siakam enters the game for O. Toppin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 30,SAS: 22
+0:41.0,Q1,San Antonio Spurs,J. Sochan,,J. Sochan misses 2-pt hook shot from 9 ft,Shot,Hook Shot,Missed,9 ft,No points scored,IND: 30,SAS: 22
+0:38.0,Q1,Indiana Pacers,T. McConnell,,Defensive rebound by T. McConnell,Rebound,Defensive,N/A,N/A,No points scored,IND: 30,SAS: 22
+0:31.0,Q1,Indiana Pacers,M. Turner,T. McConnell,M. Turner makes 3-pt jump shot from 23 ft (assist by T. McConnell),Shot,Jump Shot,Made,23 ft,IND: 3,IND: 33,SAS: 22
+0:08.0,Q1,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 2-pt jump shot from 18 ft,Shot,Jump Shot,Missed,18 ft,No points scored,IND: 33,SAS: 22
+0:06.0,Q1,San Antonio Spurs,K. Johnson,,Offensive rebound by K. Johnson,Rebound,Offensive,N/A,N/A,No points scored,IND: 33,SAS: 22
+0:06.0,Q1,San Antonio Spurs,K. Johnson,,K. Johnson makes 2-pt layup at rim,Shot,Layup,Made,N/A,SAS: 2,IND: 33,SAS: 24
+0:00.0,Q1,Indiana Pacers,T. McConnell,,T. McConnell misses 2-pt jump shot from 16 ft,Shot,Jump Shot,Missed,16 ft,No points scored,IND: 33,SAS: 24
+0:00.0,Q1,Indiana Pacers,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 33,SAS: 24
+11:41.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt jump shot from 13 ft,Shot,Jump Shot,Missed,13 ft,No points scored,IND: 33,SAS: 24
+11:36.0,Q2,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 33,SAS: 24
+11:21.0,Q2,San Antonio Spurs,K. Johnson,,K. Johnson misses 2-pt layup from 4 ft,Shot,Layup,Missed,4 ft,No points scored,IND: 33,SAS: 24
+11:20.0,Q2,Indiana Pacers,M. Turner,,Defensive rebound by M. Turner,Rebound,Defensive,N/A,N/A,No points scored,IND: 33,SAS: 24
+11:14.0,Q2,Indiana Pacers,M. Turner,A. Nesmith,M. Turner makes 2-pt dunk from 3 ft (assist by A. Nesmith),Shot,Dunk,Made,3 ft,IND: 2,IND: 35,SAS: 24
+10:55.0,Q2,San Antonio Spurs,S. Mamukelashvili,C. Paul,S. Mamukelashvili makes 2-pt dunk from 1 ft (assist by C. Paul),Shot,Dunk,Made,1 ft,SAS: 2,IND: 35,SAS: 26
+10:38.0,Q2,Indiana Pacers,A. Nesmith,P. Siakam,A. Nesmith makes 2-pt jump shot from 7 ft (assist by P. Siakam),Shot,Jump Shot,Made,7 ft,IND: 2,IND: 37,SAS: 26
+10:17.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 3-pt jump shot from 28 ft,Shot,Jump Shot,Missed,28 ft,No points scored,IND: 37,SAS: 26
+10:15.0,Q2,Indiana Pacers,P. Siakam,,Defensive rebound by P. Siakam,Rebound,Defensive,N/A,N/A,No points scored,IND: 37,SAS: 26
+10:03.0,Q2,Indiana Pacers,P. Siakam,V. Wembanyama,P. Siakam misses 2-pt jump shot from 6 ft (block by V. Wembanyama),Shot,Jump Shot,Missed,6 ft,No points scored,IND: 37,SAS: 26
+10:01.0,Q2,San Antonio Spurs,,,Defensive rebound by Team,Rebound,Defensive,N/A,N/A,No points scored,IND: 37,SAS: 26
+10:01.0,Q2,San Antonio Spurs,S. Castle,,S. Castle enters the game for K. Johnson,Substitution,Enters Game,N/A,N/A,No points scored,IND: 37,SAS: 26
+9:47.0,Q2,San Antonio Spurs,V. Wembanyama,S. Castle,V. Wembanyama makes 2-pt layup from 1 ft (assist by S. Castle),Shot,Layup,Made,1 ft,SAS: 2,IND: 37,SAS: 28
+9:35.0,Q2,Indiana Pacers,A. Nesmith,,Turnover by A. Nesmith(bad pass; steal by V. Wembanyama),Turnover,bad pass; steal by V. Wembanyama,N/A,N/A,No points scored,IND: 37,SAS: 28
+9:32.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama makes 3-pt jump shot from 31 ft,Shot,Jump Shot,Made,31 ft,SAS: 3,IND: 37,SAS: 31
+9:30.0,Q2,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 37,SAS: 31
+9:30.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin enters the game for A. Nesmith,Substitution,Enters Game,N/A,N/A,No points scored,IND: 37,SAS: 31
+9:19.0,Q2,Indiana Pacers,T. McConnell,,T. McConnell misses 2-pt jump shot from 20 ft,Shot,Jump Shot,Missed,20 ft,No points scored,IND: 37,SAS: 31
+9:16.0,Q2,San Antonio Spurs,S. Mamukelashvili,,Defensive rebound by S. Mamukelashvili,Rebound,Defensive,N/A,N/A,No points scored,IND: 37,SAS: 31
+9:01.0,Q2,San Antonio Spurs,S. Castle,M. Turner,S. Castle misses 2-pt dunk from 4 ft (block by M. Turner),Shot,Dunk,Missed,4 ft,No points scored,IND: 37,SAS: 31
+9:00.0,Q2,Indiana Pacers,P. Siakam,,Defensive rebound by P. Siakam,Rebound,Defensive,N/A,N/A,No points scored,IND: 37,SAS: 31
+8:53.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin misses 2-pt layup from 4 ft,Shot,Layup,Missed,4 ft,No points scored,IND: 37,SAS: 31
+8:51.0,Q2,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 37,SAS: 31
+8:50.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt layup from 4 ft,Shot,Layup,Made,4 ft,IND: 2,IND: 39,SAS: 31
+8:41.0,Q2,San Antonio Spurs,V. Wembanyama,P. Siakam,V. Wembanyama misses 2-pt jump shot from 7 ft (block by P. Siakam),Shot,Jump Shot,Missed,7 ft,No points scored,IND: 39,SAS: 31
+8:38.0,Q2,San Antonio Spurs,S. Mamukelashvili,,Offensive rebound by S. Mamukelashvili,Rebound,Offensive,N/A,N/A,No points scored,IND: 39,SAS: 31
+8:37.0,Q2,San Antonio Spurs,C. Paul,S. Mamukelashvili,C. Paul makes 3-pt jump shot from 26 ft (assist by S. Mamukelashvili),Shot,Jump Shot,Made,26 ft,SAS: 3,IND: 39,SAS: 34
+8:19.0,Q2,Indiana Pacers,T. McConnell,,Turnover by T. McConnell(bad pass; steal by S. Mamukelashvili),Turnover,bad pass; steal by S. Mamukelashvili,N/A,N/A,No points scored,IND: 39,SAS: 34
+8:17.0,Q2,San Antonio Spurs,B. Mathurin,S. Mamukelashvili,Shooting foul by B. Mathurin(drawn by S. Mamukelashvili),Foul,Shooting,N/A,N/A,No points scored,IND: 39,SAS: 34
+8:17.0,Q2,San Antonio Spurs,S. Mamukelashvili,,S. Mamukelashvili misses free throw 1 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 39,SAS: 34
+8:17.0,Q2,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 39,SAS: 34
+8:17.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton enters the game for T. McConnell,Substitution,Enters Game,N/A,N/A,No points scored,IND: 39,SAS: 34
+8:17.0,Q2,San Antonio Spurs,S. Mamukelashvili,,S. Mamukelashvili makes free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 39,SAS: 35
+8:05.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 39,SAS: 35
+8:00.0,Q2,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 39,SAS: 35
+7:52.0,Q2,San Antonio Spurs,C. Paul,,C. Paul makes 2-pt layup from 1 ft,Shot,Layup,Made,1 ft,SAS: 2,IND: 39,SAS: 37
+7:43.0,Q2,Indiana Pacers,B. Sheppard,,B. Sheppard misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 39,SAS: 37
+7:42.0,Q2,Indiana Pacers,B. Sheppard,,Offensive rebound by B. Sheppard,Rebound,Offensive,N/A,N/A,No points scored,IND: 39,SAS: 37
+7:29.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt jump shot from 21 ft,Shot,Jump Shot,Missed,21 ft,No points scored,IND: 39,SAS: 37
+7:27.0,Q2,San Antonio Spurs,S. Mamukelashvili,,Defensive rebound by S. Mamukelashvili,Rebound,Defensive,N/A,N/A,No points scored,IND: 39,SAS: 37
+7:08.0,Q2,San Antonio Spurs,S. Castle,,S. Castle misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 39,SAS: 37
+7:04.0,Q2,San Antonio Spurs,V. Wembanyama,,Offensive rebound by V. Wembanyama,Rebound,Offensive,N/A,N/A,No points scored,IND: 39,SAS: 37
+7:04.0,Q2,San Antonio Spurs,B. Sheppard,V. Wembanyama,Shooting foul by B. Sheppard(drawn by V. Wembanyama),Foul,Shooting,N/A,N/A,No points scored,IND: 39,SAS: 37
+7:04.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 39,SAS: 38
+7:04.0,Q2,Indiana Pacers,O. Toppin,,O. Toppin enters the game for P. Siakam,Substitution,Enters Game,N/A,N/A,No points scored,IND: 39,SAS: 38
+7:04.0,Q2,San Antonio Spurs,H. Barnes,,H. Barnes enters the game for J. Champagnie,Substitution,Enters Game,N/A,N/A,No points scored,IND: 39,SAS: 38
+7:04.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama makes free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 39,SAS: 39
+6:56.0,Q2,Indiana Pacers,M. Turner,,M. Turner misses 3-pt jump shot from 28 ft,Shot,Jump Shot,Missed,28 ft,No points scored,IND: 39,SAS: 39
+6:52.0,Q2,Indiana Pacers,B. Sheppard,,Offensive rebound by B. Sheppard,Rebound,Offensive,N/A,N/A,No points scored,IND: 39,SAS: 39
+6:51.0,Q2,Indiana Pacers,T. Haliburton,B. Sheppard,T. Haliburton makes 3-pt jump shot from 28 ft (assist by B. Sheppard),Shot,Jump Shot,Made,28 ft,IND: 3,IND: 42,SAS: 39
+6:32.0,Q2,San Antonio Spurs,V. Wembanyama,S. Mamukelashvili,V. Wembanyama makes 2-pt dunk from 1 ft (assist by S. Mamukelashvili),Shot,Dunk,Made,1 ft,SAS: 2,IND: 42,SAS: 41
+6:20.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton makes 3-pt jump shot from 28 ft,Shot,Jump Shot,Made,28 ft,IND: 3,IND: 45,SAS: 41
+5:59.0,Q2,San Antonio Spurs,S. Castle,T. Haliburton,S. Castle misses 2-pt layup from 3 ft (block by T. Haliburton),Shot,Layup,Missed,3 ft,No points scored,IND: 45,SAS: 41
+5:58.0,Q2,Indiana Pacers,O. Toppin,,Defensive rebound by O. Toppin,Rebound,Defensive,N/A,N/A,No points scored,IND: 45,SAS: 41
+5:54.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton misses 3-pt jump shot from 28 ft,Shot,Jump Shot,Missed,28 ft,No points scored,IND: 45,SAS: 41
+5:51.0,Q2,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 45,SAS: 41
+5:44.0,Q2,San Antonio Spurs,V. Wembanyama,C. Paul,V. Wembanyama makes 2-pt dunk from 2 ft (assist by C. Paul),Shot,Dunk,Made,2 ft,SAS: 2,IND: 45,SAS: 43
+5:44.0,Q2,San Antonio Spurs,B. Sheppard,V. Wembanyama,Shooting foul by B. Sheppard(drawn by V. Wembanyama),Foul,Shooting,N/A,N/A,No points scored,IND: 45,SAS: 43
+5:44.0,Q2,Indiana Pacers,A. Nembhard,,A. Nembhard enters the game for B. Sheppard,Substitution,Enters Game,N/A,N/A,No points scored,IND: 45,SAS: 43
+5:44.0,Q2,San Antonio Spurs,T. Jones,,T. Jones enters the game for S. Castle,Substitution,Enters Game,N/A,N/A,No points scored,IND: 45,SAS: 43
+5:44.0,Q2,San Antonio Spurs,J. Sochan,,J. Sochan enters the game for S. Mamukelashvili,Substitution,Enters Game,N/A,N/A,No points scored,IND: 45,SAS: 43
+5:44.0,Q2,San Antonio Spurs,D. Vassell,,D. Vassell enters the game for C. Paul,Substitution,Enters Game,N/A,N/A,No points scored,IND: 45,SAS: 43
+5:44.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama makes free throw 1 of 1,Shot,Free Throw,Made,N/A,SAS: 1,IND: 45,SAS: 44
+5:31.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin makes 3-pt jump shot from 26 ft,Shot,Jump Shot,Made,26 ft,IND: 3,IND: 48,SAS: 44
+5:20.0,Q2,San Antonio Spurs,J. Sochan,,Turnover by J. Sochan(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:20.0,Q2,San Antonio Spurs,S. Castle,,S. Castle enters the game for V. Wembanyama,Substitution,Enters Game,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:14.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 48,SAS: 44
+5:12.0,Q2,Indiana Pacers,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:12.0,Q2,San Antonio Spurs,D. Vassell,M. Turner,Loose ball foul by D. Vassell(drawn by M. Turner),Foul,Loose Ball,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:12.0,Q2,Indiana Pacers,T. Bryant,,T. Bryant enters the game for M. Turner,Substitution,Enters Game,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:06.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin misses 2-pt layup from 5 ft,Shot,Layup,Missed,5 ft,No points scored,IND: 48,SAS: 44
+5:02.0,Q2,Indiana Pacers,A. Nembhard,,Offensive rebound by A. Nembhard,Rebound,Offensive,N/A,N/A,No points scored,IND: 48,SAS: 44
+5:00.0,Q2,Indiana Pacers,O. Toppin,A. Nembhard,O. Toppin makes 2-pt layup from 3 ft (assist by A. Nembhard),Shot,Layup,Made,3 ft,IND: 2,IND: 50,SAS: 44
+4:45.0,Q2,San Antonio Spurs,T. Jones,,T. Jones makes 2-pt layup from 5 ft,Shot,Layup,Made,5 ft,SAS: 2,IND: 50,SAS: 46
+4:45.0,Q2,San Antonio Spurs,A. Nembhard,T. Jones,Shooting foul by A. Nembhard(drawn by T. Jones),Foul,Shooting,N/A,N/A,No points scored,IND: 50,SAS: 46
+4:45.0,Q2,San Antonio Spurs,T. Jones,,T. Jones makes free throw 1 of 1,Shot,Free Throw,Made,N/A,SAS: 1,IND: 50,SAS: 47
+4:33.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton misses 2-pt jump shot from 4 ft,Shot,Jump Shot,Missed,4 ft,No points scored,IND: 50,SAS: 47
+4:30.0,Q2,San Antonio Spurs,J. Sochan,,Defensive rebound by J. Sochan,Rebound,Defensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+4:26.0,Q2,San Antonio Spurs,J. Sochan,,Turnover by J. Sochan(bad pass; steal by A. Nembhard),Turnover,bad pass; steal by A. Nembhard,N/A,N/A,No points scored,IND: 50,SAS: 47
+4:22.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 50,SAS: 47
+4:21.0,Q2,San Antonio Spurs,H. Barnes,,Defensive rebound by H. Barnes,Rebound,Defensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+4:14.0,Q2,San Antonio Spurs,J. Sochan,,J. Sochan misses 2-pt layup from 6 ft,Shot,Layup,Missed,6 ft,No points scored,IND: 50,SAS: 47
+4:12.0,Q2,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+4:07.0,Q2,San Antonio Spurs,D. Vassell,,D. Vassell misses 2-pt jump shot from 12 ft,Shot,Jump Shot,Missed,12 ft,No points scored,IND: 50,SAS: 47
+4:04.0,Q2,Indiana Pacers,O. Toppin,,Defensive rebound by O. Toppin,Rebound,Defensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+3:50.0,Q2,Indiana Pacers,O. Toppin,D. Vassell,O. Toppin misses 2-pt layup from 4 ft (block by D. Vassell),Shot,Layup,Missed,4 ft,No points scored,IND: 50,SAS: 47
+3:48.0,Q2,Indiana Pacers,O. Toppin,,Offensive rebound by O. Toppin,Rebound,Offensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+3:47.0,Q2,Indiana Pacers,J. Sochan,B. Mathurin,Personal foul by J. Sochan(drawn by B. Mathurin),Foul,Personal,N/A,N/A,No points scored,IND: 50,SAS: 47
+3:42.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 50,SAS: 47
+3:39.0,Q2,Indiana Pacers,T. Bryant,,Offensive rebound by T. Bryant,Rebound,Offensive,N/A,N/A,No points scored,IND: 50,SAS: 47
+3:38.0,Q2,Indiana Pacers,T. Bryant,,T. Bryant makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,IND: 2,IND: 52,SAS: 47
+3:19.0,Q2,San Antonio Spurs,S. Castle,,Turnover by S. Castle(traveling),Turnover,traveling,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,Indiana Pacers,J. Sochan,B. Mathurin,Shooting foul by J. Sochan(drawn by B. Mathurin),Foul,Shooting,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,San Antonio Spurs,,,San Antonio full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam enters the game for T. Bryant,Substitution,Enters Game,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,Indiana Pacers,M. Turner,,M. Turner enters the game for O. Toppin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,San Antonio Spurs,C. Paul,,C. Paul enters the game for H. Barnes,Substitution,Enters Game,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama enters the game for S. Castle,Substitution,Enters Game,N/A,N/A,No points scored,IND: 52,SAS: 47
+2:55.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 53,SAS: 47
+2:55.0,Q2,Indiana Pacers,B. Mathurin,,B. Mathurin makes free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 54,SAS: 47
+2:54.0,Q2,San Antonio Spurs,J. Sochan,,Turnover by J. Sochan(bad pass; steal by M. Turner),Turnover,bad pass; steal by M. Turner,N/A,N/A,No points scored,IND: 54,SAS: 47
+2:53.0,Q2,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,IND: 2,IND: 56,SAS: 47
+2:25.0,Q2,San Antonio Spurs,D. Vassell,V. Wembanyama,D. Vassell makes 3-pt jump shot from 25 ft (assist by V. Wembanyama),Shot,Jump Shot,Made,25 ft,SAS: 3,IND: 56,SAS: 50
+2:09.0,Q2,Indiana Pacers,P. Siakam,A. Nembhard,P. Siakam makes 2-pt jump shot from 15 ft (assist by A. Nembhard),Shot,Jump Shot,Made,15 ft,IND: 2,IND: 58,SAS: 50
+1:59.0,Q2,San Antonio Spurs,D. Vassell,P. Siakam,D. Vassell misses 2-pt layup from 5 ft (block by P. Siakam),Shot,Layup,Missed,5 ft,No points scored,IND: 58,SAS: 50
+1:57.0,Q2,Indiana Pacers,P. Siakam,,Defensive rebound by P. Siakam,Rebound,Defensive,N/A,N/A,No points scored,IND: 58,SAS: 50
+1:39.0,Q2,Indiana Pacers,A. Nembhard,M. Turner,A. Nembhard makes 3-pt jump shot from 23 ft (assist by M. Turner),Shot,Jump Shot,Made,23 ft,IND: 3,IND: 61,SAS: 50
+1:16.0,Q2,San Antonio Spurs,V. Wembanyama,M. Turner,V. Wembanyama misses 2-pt layup from 2 ft (block by M. Turner),Shot,Layup,Missed,2 ft,No points scored,IND: 61,SAS: 50
+1:13.0,Q2,San Antonio Spurs,J. Sochan,,Offensive rebound by J. Sochan,Rebound,Offensive,N/A,N/A,No points scored,IND: 61,SAS: 50
+1:11.0,Q2,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 3-pt jump shot from 24 ft,Shot,Jump Shot,Missed,24 ft,No points scored,IND: 61,SAS: 50
+1:09.0,Q2,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 61,SAS: 50
+1:01.0,Q2,Indiana Pacers,T. Jones,P. Siakam,Personal foul by T. Jones(drawn by P. Siakam),Foul,Personal,N/A,N/A,No points scored,IND: 61,SAS: 50
+0:51.0,Q2,Indiana Pacers,M. Turner,T. Haliburton,M. Turner makes 2-pt dunk from 3 ft (assist by T. Haliburton),Shot,Dunk,Made,3 ft,IND: 2,IND: 63,SAS: 50
+0:39.0,Q2,San Antonio Spurs,J. Sochan,A. Nembhard,Offensive foul by J. Sochan(drawn by A. Nembhard),Foul,Offensive,N/A,N/A,No points scored,IND: 63,SAS: 50
+0:39.0,Q2,San Antonio Spurs,J. Sochan,,Turnover by J. Sochan(offensive foul),Foul,Offensive,N/A,N/A,No points scored,IND: 63,SAS: 50
+0:30.0,Q2,Indiana Pacers,M. Turner,,Turnover by M. Turner(out of bounds lost ball),Turnover,out of bounds lost ball,N/A,N/A,No points scored,IND: 63,SAS: 50
+0:06.0,Q2,San Antonio Spurs,,,Turnover by Team (shot clock),Turnover,shot clock,N/A,N/A,No points scored,IND: 63,SAS: 50
+0:00.0,Q2,Indiana Pacers,T. Haliburton,,T. Haliburton makes 2-pt layup from 5 ft,Shot,Layup,Made,5 ft,IND: 2,IND: 65,SAS: 50
+11:38.0,Q3,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt jump shot from 14 ft,Shot,Jump Shot,Made,14 ft,IND: 2,IND: 67,SAS: 50
+11:23.0,Q3,San Antonio Spurs,S. Castle,C. Paul,S. Castle makes 2-pt layup from 2 ft (assist by C. Paul),Shot,Layup,Made,2 ft,SAS: 2,IND: 67,SAS: 52
+11:23.0,Q3,San Antonio Spurs,P. Siakam,S. Castle,Shooting foul by P. Siakam(drawn by S. Castle),Foul,Shooting,N/A,N/A,No points scored,IND: 67,SAS: 52
+11:23.0,Q3,San Antonio Spurs,S. Castle,,S. Castle makes free throw 1 of 1,Shot,Free Throw,Made,N/A,SAS: 1,IND: 67,SAS: 53
+11:03.0,Q3,Indiana Pacers,M. Turner,,M. Turner misses 2-pt jump shot from 9 ft,Shot,Jump Shot,Missed,9 ft,No points scored,IND: 67,SAS: 53
+11:01.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 67,SAS: 53
+10:54.0,Q3,San Antonio Spurs,H. Barnes,S. Castle,H. Barnes makes 2-pt layup from 2 ft (assist by S. Castle),Shot,Layup,Made,2 ft,SAS: 2,IND: 67,SAS: 55
+10:54.0,Q3,San Antonio Spurs,T. Haliburton,H. Barnes,Shooting foul by T. Haliburton(drawn by H. Barnes),Foul,Shooting,N/A,N/A,No points scored,IND: 67,SAS: 55
+10:54.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes makes free throw 1 of 1,Shot,Free Throw,Made,N/A,SAS: 1,IND: 67,SAS: 56
+10:46.0,Q3,Indiana Pacers,T. Haliburton,,T. Haliburton misses 2-pt layup from 3 ft,Shot,Layup,Missed,3 ft,No points scored,IND: 67,SAS: 56
+10:44.0,Q3,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 67,SAS: 56
+10:39.0,Q3,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt layup from 3 ft,Shot,Layup,Missed,3 ft,No points scored,IND: 67,SAS: 56
+10:37.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 67,SAS: 56
+10:33.0,Q3,San Antonio Spurs,A. Nembhard,S. Castle,Shooting foul by A. Nembhard(drawn by S. Castle),Foul,Shooting,N/A,N/A,No points scored,IND: 67,SAS: 56
+10:33.0,Q3,San Antonio Spurs,S. Castle,,S. Castle makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 67,SAS: 57
+10:33.0,Q3,San Antonio Spurs,S. Castle,,S. Castle misses free throw 2 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 67,SAS: 57
+10:32.0,Q3,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 67,SAS: 57
+10:20.0,Q3,Indiana Pacers,A. Nembhard,T. Haliburton,A. Nembhard makes 2-pt jump shot from 8 ft (assist by T. Haliburton),Shot,Jump Shot,Made,8 ft,IND: 2,IND: 69,SAS: 57
+10:04.0,Q3,San Antonio Spurs,H. Barnes,T. Haliburton,H. Barnes misses 2-pt layup from 3 ft (block by T. Haliburton),Shot,Layup,Missed,3 ft,No points scored,IND: 69,SAS: 57
+10:02.0,Q3,San Antonio Spurs,H. Barnes,,Offensive rebound by H. Barnes,Rebound,Offensive,N/A,N/A,No points scored,IND: 69,SAS: 57
+10:02.0,Q3,San Antonio Spurs,S. Castle,,S. Castle misses 2-pt layup from 3 ft,Shot,Layup,Missed,3 ft,No points scored,IND: 69,SAS: 57
+9:59.0,Q3,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 69,SAS: 57
+9:55.0,Q3,Indiana Pacers,M. Turner,,M. Turner misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 69,SAS: 57
+9:53.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 69,SAS: 57
+9:46.0,Q3,San Antonio Spurs,D. Vassell,,D. Vassell misses 3-pt jump shot from 22 ft,Shot,Jump Shot,Missed,22 ft,No points scored,IND: 69,SAS: 57
+9:42.0,Q3,San Antonio Spurs,S. Castle,,Offensive rebound by S. Castle,Rebound,Offensive,N/A,N/A,No points scored,IND: 69,SAS: 57
+9:42.0,Q3,San Antonio Spurs,S. Castle,,S. Castle makes 2-pt jump shot from 6 ft,Shot,Jump Shot,Made,6 ft,SAS: 2,IND: 69,SAS: 59
+9:31.0,Q3,Indiana Pacers,M. Turner,D. Vassell,M. Turner misses 2-pt layup from 4 ft (block by D. Vassell),Shot,Layup,Missed,4 ft,No points scored,IND: 69,SAS: 59
+9:29.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 69,SAS: 59
+9:25.0,Q3,San Antonio Spurs,V. Wembanyama,,Turnover by V. Wembanyama(lost ball; steal by A. Nembhard),Turnover,lost ball; steal by A. Nembhard,N/A,N/A,No points scored,IND: 69,SAS: 59
+9:18.0,Q3,Indiana Pacers,B. Mathurin,P. Siakam,B. Mathurin makes 2-pt layup from 2 ft (assist by P. Siakam),Shot,Layup,Made,2 ft,IND: 2,IND: 71,SAS: 59
+9:00.0,Q3,San Antonio Spurs,H. Barnes,V. Wembanyama,H. Barnes makes 3-pt jump shot from 23 ft (assist by V. Wembanyama),Shot,Jump Shot,Made,23 ft,SAS: 3,IND: 71,SAS: 62
+8:51.0,Q3,Indiana Pacers,D. Vassell,B. Mathurin,Personal foul by D. Vassell(drawn by B. Mathurin),Foul,Personal,N/A,N/A,No points scored,IND: 71,SAS: 62
+8:41.0,Q3,Indiana Pacers,P. Siakam,,Turnover by P. Siakam(lost ball; steal by S. Castle),Turnover,lost ball; steal by S. Castle,N/A,N/A,No points scored,IND: 71,SAS: 62
+8:34.0,Q3,San Antonio Spurs,A. Nembhard,H. Barnes,Shooting foul by A. Nembhard(drawn by H. Barnes),Foul,Shooting,N/A,N/A,No points scored,IND: 71,SAS: 62
+8:34.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes misses free throw 1 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 71,SAS: 62
+8:34.0,Q3,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 71,SAS: 62
+8:34.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes makes free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 71,SAS: 63
+8:19.0,Q3,Indiana Pacers,M. Turner,P. Siakam,M. Turner makes 3-pt jump shot from 24 ft (assist by P. Siakam),Shot,Jump Shot,Made,24 ft,IND: 3,IND: 74,SAS: 63
+8:07.0,Q3,San Antonio Spurs,S. Castle,C. Paul,S. Castle makes 2-pt dunk from 2 ft (assist by C. Paul),Shot,Dunk,Made,2 ft,SAS: 2,IND: 74,SAS: 65
+7:57.0,Q3,Indiana Pacers,B. Mathurin,,B. Mathurin misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 74,SAS: 65
+7:55.0,Q3,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 74,SAS: 65
+7:53.0,Q3,Indiana Pacers,P. Siakam,,Turnover by P. Siakam(lost ball; steal by C. Paul),Turnover,lost ball; steal by C. Paul,N/A,N/A,No points scored,IND: 74,SAS: 65
+7:46.0,Q3,San Antonio Spurs,S. Castle,,S. Castle misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 74,SAS: 65
+7:44.0,Q3,San Antonio Spurs,S. Castle,,Offensive rebound by S. Castle,Rebound,Offensive,N/A,N/A,No points scored,IND: 74,SAS: 65
+7:44.0,Q3,San Antonio Spurs,S. Castle,,S. Castle misses 2-pt layup at rim,Shot,Layup,Missed,N/A,No points scored,IND: 74,SAS: 65
+7:44.0,Q3,San Antonio Spurs,S. Castle,,Offensive rebound by S. Castle,Rebound,Offensive,N/A,N/A,No points scored,IND: 74,SAS: 65
+7:44.0,Q3,San Antonio Spurs,S. Castle,,S. Castle makes 2-pt layup at rim,Shot,Layup,Made,N/A,SAS: 2,IND: 74,SAS: 67
+7:44.0,Q3,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 74,SAS: 67
+7:44.0,Q3,Indiana Pacers,B. Mathurin,,Technical foul by B. Mathurin,Foul,Technical,N/A,N/A,No points scored,IND: 74,SAS: 67
+7:44.0,Q3,San Antonio Spurs,C. Paul,,C. Paul makes technical free throw,Shot,Free Throw,Made,N/A,SAS: 1,IND: 74,SAS: 68
+7:27.0,Q3,Indiana Pacers,V. Wembanyama,M. Turner,Personal foul by V. Wembanyama(drawn by M. Turner),Foul,Personal,N/A,N/A,No points scored,IND: 74,SAS: 68
+7:15.0,Q3,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt jump shot from 18 ft,Shot,Jump Shot,Missed,18 ft,No points scored,IND: 74,SAS: 68
+7:11.0,Q3,San Antonio Spurs,D. Vassell,,Defensive rebound by D. Vassell,Rebound,Defensive,N/A,N/A,No points scored,IND: 74,SAS: 68
+7:07.0,Q3,San Antonio Spurs,P. Siakam,H. Barnes,Shooting foul by P. Siakam(drawn by H. Barnes),Foul,Shooting,N/A,N/A,No points scored,IND: 74,SAS: 68
+7:07.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 74,SAS: 69
+7:07.0,Q3,Indiana Pacers,A. Nesmith,,A. Nesmith enters the game for B. Mathurin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 74,SAS: 69
+7:07.0,Q3,Indiana Pacers,O. Toppin,,O. Toppin enters the game for P. Siakam,Substitution,Enters Game,N/A,N/A,No points scored,IND: 74,SAS: 69
+7:07.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes misses free throw 2 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 74,SAS: 69
+7:06.0,Q3,Indiana Pacers,O. Toppin,,Defensive rebound by O. Toppin,Rebound,Defensive,N/A,N/A,No points scored,IND: 74,SAS: 69
+6:55.0,Q3,Indiana Pacers,T. Haliburton,,Turnover by T. Haliburton(bad pass; steal by V. Wembanyama),Turnover,bad pass; steal by V. Wembanyama,N/A,N/A,No points scored,IND: 74,SAS: 69
+6:48.0,Q3,San Antonio Spurs,V. Wembanyama,,Turnover by V. Wembanyama(bad pass; steal by T. Haliburton),Turnover,bad pass; steal by T. Haliburton,N/A,N/A,No points scored,IND: 74,SAS: 69
+6:44.0,Q3,Indiana Pacers,T. Haliburton,,T. Haliburton makes 2-pt dunk from 1 ft,Shot,Dunk,Made,1 ft,IND: 2,IND: 76,SAS: 69
+6:21.0,Q3,San Antonio Spurs,D. Vassell,C. Paul,D. Vassell makes 3-pt jump shot from 23 ft (assist by C. Paul),Shot,Jump Shot,Made,23 ft,SAS: 3,IND: 76,SAS: 72
+5:58.0,Q3,Indiana Pacers,A. Nembhard,C. Paul,A. Nembhard misses 2-pt jump shot from 12 ft (block by C. Paul),Shot,Jump Shot,Missed,12 ft,No points scored,IND: 76,SAS: 72
+5:58.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 76,SAS: 72
+5:53.0,Q3,San Antonio Spurs,D. Vassell,,D. Vassell misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,Indiana Pacers,A. Nesmith,H. Barnes,Loose ball foul by A. Nesmith(drawn by H. Barnes),Foul,Loose Ball,N/A,N/A,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes misses free throw 1 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,Indiana Pacers,B. Sheppard,,B. Sheppard enters the game for T. Haliburton,Substitution,Enters Game,N/A,N/A,No points scored,IND: 76,SAS: 72
+5:52.0,Q3,San Antonio Spurs,H. Barnes,,H. Barnes makes free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 76,SAS: 73
+5:35.0,Q3,Indiana Pacers,O. Toppin,,O. Toppin misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 76,SAS: 73
+5:32.0,Q3,San Antonio Spurs,H. Barnes,,Defensive rebound by H. Barnes,Rebound,Defensive,N/A,N/A,No points scored,IND: 76,SAS: 73
+5:27.0,Q3,San Antonio Spurs,O. Toppin,C. Paul,Personal foul by O. Toppin(drawn by C. Paul),Foul,Personal,N/A,N/A,No points scored,IND: 76,SAS: 73
+5:27.0,Q3,San Antonio Spurs,C. Paul,,C. Paul makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 76,SAS: 74
+5:27.0,Q3,Indiana Pacers,T. Haliburton,,T. Haliburton enters the game for B. Sheppard,Substitution,Enters Game,N/A,N/A,No points scored,IND: 76,SAS: 74
+5:27.0,Q3,San Antonio Spurs,C. Paul,,C. Paul makes free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 76,SAS: 75
+5:11.0,Q3,Indiana Pacers,M. Turner,,M. Turner misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 76,SAS: 75
+5:08.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 76,SAS: 75
+4:56.0,Q3,San Antonio Spurs,V. Wembanyama,D. Vassell,V. Wembanyama makes 2-pt jump shot from 7 ft (assist by D. Vassell),Shot,Jump Shot,Made,7 ft,SAS: 2,IND: 76,SAS: 77
+4:53.0,Q3,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 76,SAS: 77
+4:42.0,Q3,Indiana Pacers,O. Toppin,A. Nembhard,O. Toppin makes 3-pt jump shot from 23 ft (assist by A. Nembhard),Shot,Jump Shot,Made,23 ft,IND: 3,IND: 79,SAS: 77
+4:16.0,Q3,San Antonio Spurs,C. Paul,,C. Paul makes 3-pt jump shot from 28 ft,Shot,Jump Shot,Made,28 ft,SAS: 3,IND: 79,SAS: 80
+3:56.0,Q3,Indiana Pacers,O. Toppin,,O. Toppin misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 79,SAS: 80
+3:52.0,Q3,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 79,SAS: 80
+3:45.0,Q3,San Antonio Spurs,C. Paul,,C. Paul misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 79,SAS: 80
+3:42.0,Q3,Indiana Pacers,T. Haliburton,,Defensive rebound by T. Haliburton,Rebound,Defensive,N/A,N/A,No points scored,IND: 79,SAS: 80
+3:37.0,Q3,Indiana Pacers,A. Nesmith,,A. Nesmith misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 79,SAS: 80
+3:35.0,Q3,Indiana Pacers,M. Turner,,Offensive rebound by M. Turner,Rebound,Offensive,N/A,N/A,No points scored,IND: 79,SAS: 80
+3:25.0,Q3,Indiana Pacers,T. Haliburton,O. Toppin,T. Haliburton makes 2-pt jump shot from 18 ft (assist by O. Toppin),Shot,Jump Shot,Made,18 ft,IND: 2,IND: 81,SAS: 80
+3:22.0,Q3,San Antonio Spurs,,,San Antonio full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:22.0,Q3,Indiana Pacers,T. Bryant,,T. Bryant enters the game for O. Toppin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:22.0,Q3,Indiana Pacers,P. Siakam,,P. Siakam enters the game for M. Turner,Substitution,Enters Game,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:22.0,Q3,San Antonio Spurs,K. Johnson,,K. Johnson enters the game for S. Castle,Substitution,Enters Game,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:22.0,Q3,San Antonio Spurs,T. Jones,,T. Jones enters the game for C. Paul,Substitution,Enters Game,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:22.0,Q3,San Antonio Spurs,J. Sochan,,J. Sochan enters the game for V. Wembanyama,Substitution,Enters Game,N/A,N/A,No points scored,IND: 81,SAS: 80
+3:11.0,Q3,San Antonio Spurs,T. Jones,,T. Jones misses 2-pt layup from 7 ft,Shot,Layup,Missed,7 ft,No points scored,IND: 81,SAS: 80
+3:04.0,Q3,Indiana Pacers,T. Bryant,,Defensive rebound by T. Bryant,Rebound,Defensive,N/A,N/A,No points scored,IND: 81,SAS: 80
+2:53.0,Q3,Indiana Pacers,T. Haliburton,A. Nembhard,T. Haliburton makes 3-pt jump shot from 27 ft (assist by A. Nembhard),Shot,Jump Shot,Made,27 ft,IND: 3,IND: 84,SAS: 80
+2:40.0,Q3,San Antonio Spurs,J. Sochan,,J. Sochan misses 2-pt layup from 2 ft,Shot,Layup,Missed,2 ft,No points scored,IND: 84,SAS: 80
+2:39.0,Q3,Indiana Pacers,A. Nesmith,,Defensive rebound by A. Nesmith,Rebound,Defensive,N/A,N/A,No points scored,IND: 84,SAS: 80
+2:35.0,Q3,Indiana Pacers,A. Nesmith,,A. Nesmith misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 84,SAS: 80
+2:31.0,Q3,San Antonio Spurs,D. Vassell,,Defensive rebound by D. Vassell,Rebound,Defensive,N/A,N/A,No points scored,IND: 84,SAS: 80
+2:28.0,Q3,San Antonio Spurs,D. Vassell,,Turnover by D. Vassell(lost ball; steal by T. Haliburton),Turnover,lost ball; steal by T. Haliburton,N/A,N/A,No points scored,IND: 84,SAS: 80
+2:25.0,Q3,Indiana Pacers,T. Haliburton,A. Nembhard,T. Haliburton makes 3-pt jump shot from 27 ft (assist by A. Nembhard),Shot,Jump Shot,Made,27 ft,IND: 3,IND: 87,SAS: 80
+2:01.0,Q3,San Antonio Spurs,H. Barnes,,Turnover by H. Barnes(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 87,SAS: 80
+1:44.0,Q3,Indiana Pacers,K. Johnson,A. Nembhard,Personal foul by K. Johnson(drawn by A. Nembhard),Foul,Personal,N/A,N/A,No points scored,IND: 87,SAS: 80
+1:40.0,Q3,Indiana Pacers,T. Haliburton,T. Bryant,T. Haliburton makes 3-pt jump shot from 28 ft (assist by T. Bryant),Shot,Jump Shot,Made,28 ft,IND: 3,IND: 90,SAS: 80
+1:22.0,Q3,San Antonio Spurs,T. Jones,,T. Jones makes 2-pt layup from 5 ft,Shot,Layup,Made,5 ft,SAS: 2,IND: 90,SAS: 82
+1:10.0,Q3,Indiana Pacers,T. Haliburton,,T. Haliburton makes 2-pt jump shot from 23 ft,Shot,Jump Shot,Made,23 ft,IND: 2,IND: 92,SAS: 82
+1:00.0,Q3,San Antonio Spurs,A. Nesmith,T. Jones,Shooting foul by A. Nesmith(drawn by T. Jones),Foul,Shooting,N/A,N/A,No points scored,IND: 92,SAS: 82
+1:00.0,Q3,San Antonio Spurs,T. Jones,,T. Jones makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 92,SAS: 83
+1:00.0,Q3,San Antonio Spurs,T. Jones,,T. Jones misses free throw 2 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 92,SAS: 83
+0:59.0,Q3,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 92,SAS: 83
+0:42.0,Q3,Indiana Pacers,T. Haliburton,,T. Haliburton makes 3-pt jump shot from 25 ft,Shot,Jump Shot,Made,25 ft,IND: 3,IND: 95,SAS: 83
+0:32.0,Q3,San Antonio Spurs,T. Jones,,T. Jones misses 2-pt layup from 1 ft,Shot,Layup,Missed,1 ft,No points scored,IND: 95,SAS: 83
+0:28.0,Q3,San Antonio Spurs,J. Sochan,,Offensive rebound by J. Sochan,Rebound,Offensive,N/A,N/A,No points scored,IND: 95,SAS: 83
+0:27.0,Q3,San Antonio Spurs,J. Sochan,,J. Sochan misses 2-pt layup from 6 ft,Shot,Layup,Missed,6 ft,No points scored,IND: 95,SAS: 83
+0:27.0,Q3,San Antonio Spurs,T. Jones,,Offensive rebound by T. Jones,Rebound,Offensive,N/A,N/A,No points scored,IND: 95,SAS: 83
+0:25.0,Q3,San Antonio Spurs,T. Jones,,T. Jones misses 2-pt jump shot from 10 ft,Shot,Jump Shot,Missed,10 ft,No points scored,IND: 95,SAS: 83
+0:23.0,Q3,San Antonio Spurs,K. Johnson,,Offensive rebound by K. Johnson,Rebound,Offensive,N/A,N/A,No points scored,IND: 95,SAS: 83
+0:23.0,Q3,San Antonio Spurs,K. Johnson,,K. Johnson misses 2-pt layup at rim,Shot,Layup,Missed,N/A,No points scored,IND: 95,SAS: 83
+0:23.0,Q3,Indiana Pacers,T. Bryant,,Defensive rebound by T. Bryant,Rebound,Defensive,N/A,N/A,No points scored,IND: 95,SAS: 83
+0:20.0,Q3,Indiana Pacers,P. Siakam,A. Nembhard,P. Siakam makes 3-pt jump shot from 23 ft (assist by A. Nembhard),Shot,Jump Shot,Made,23 ft,IND: 3,IND: 98,SAS: 83
+0:00.0,Q3,San Antonio Spurs,H. Barnes,D. Vassell,H. Barnes makes 3-pt jump shot from 25 ft (assist by D. Vassell),Shot,Jump Shot,Made,25 ft,SAS: 3,IND: 98,SAS: 86
+11:50.0,Q4,San Antonio Spurs,S. Castle,,Turnover by S. Castle(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 98,SAS: 86
+11:28.0,Q4,Indiana Pacers,A. Nesmith,,A. Nesmith makes 2-pt jump shot from 14 ft,Shot,Jump Shot,Made,14 ft,IND: 2,IND: 100,SAS: 86
+11:13.0,Q4,San Antonio Spurs,S. Castle,P. Siakam,S. Castle misses 2-pt layup from 4 ft (block by P. Siakam),Shot,Layup,Missed,4 ft,No points scored,IND: 100,SAS: 86
+11:12.0,Q4,Indiana Pacers,T. McConnell,,Defensive rebound by T. McConnell,Rebound,Defensive,N/A,N/A,No points scored,IND: 100,SAS: 86
+11:07.0,Q4,Indiana Pacers,B. Sheppard,,B. Sheppard misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 100,SAS: 86
+11:02.0,Q4,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 100,SAS: 86
+11:02.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt layup at rim,Shot,Layup,Made,N/A,IND: 2,IND: 102,SAS: 86
+10:50.0,Q4,San Antonio Spurs,J. Champagnie,S. Castle,J. Champagnie makes 3-pt jump shot from 24 ft (assist by S. Castle),Shot,Jump Shot,Made,24 ft,SAS: 3,IND: 102,SAS: 89
+10:27.0,Q4,Indiana Pacers,P. Siakam,,Turnover by P. Siakam(bad pass; steal by S. Mamukelashvili),Turnover,bad pass; steal by S. Mamukelashvili,N/A,N/A,No points scored,IND: 102,SAS: 89
+10:20.0,Q4,San Antonio Spurs,S. Mamukelashvili,,S. Mamukelashvili misses 2-pt dunk from 2 ft,Shot,Dunk,Missed,2 ft,No points scored,IND: 102,SAS: 89
+10:18.0,Q4,Indiana Pacers,A. Nesmith,,Defensive rebound by A. Nesmith,Rebound,Defensive,N/A,N/A,No points scored,IND: 102,SAS: 89
+10:13.0,Q4,Indiana Pacers,T. McConnell,,T. McConnell makes 2-pt layup from 2 ft,Shot,Layup,Made,2 ft,IND: 2,IND: 104,SAS: 89
+10:02.0,Q4,San Antonio Spurs,S. Castle,C. Paul,S. Castle makes 3-pt jump shot from 29 ft (assist by C. Paul),Shot,Jump Shot,Made,29 ft,SAS: 3,IND: 104,SAS: 92
+9:38.0,Q4,Indiana Pacers,J. Champagnie,M. Turner,Shooting foul by J. Champagnie(drawn by M. Turner),Foul,Shooting,N/A,N/A,No points scored,IND: 104,SAS: 92
+9:38.0,Q4,Indiana Pacers,M. Turner,,M. Turner makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 105,SAS: 92
+9:38.0,Q4,Indiana Pacers,M. Turner,,M. Turner makes free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 106,SAS: 92
+9:25.0,Q4,San Antonio Spurs,S. Castle,,S. Castle makes 2-pt dunk from 1 ft,Shot,Dunk,Made,1 ft,SAS: 2,IND: 106,SAS: 94
+9:11.0,Q4,Indiana Pacers,A. Nesmith,T. McConnell,A. Nesmith makes 2-pt layup from 2 ft (assist by T. McConnell),Shot,Layup,Made,2 ft,IND: 2,IND: 108,SAS: 94
+9:02.0,Q4,San Antonio Spurs,P. Siakam,V. Wembanyama,Personal foul by P. Siakam(drawn by V. Wembanyama),Foul,Personal,N/A,N/A,No points scored,IND: 108,SAS: 94
+9:02.0,Q4,San Antonio Spurs,C. Paul,,Turnover by C. Paul(bad pass; steal by P. Siakam),Turnover,bad pass; steal by P. Siakam,N/A,N/A,No points scored,IND: 108,SAS: 94
+9:00.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt dunk from 1 ft,Shot,Dunk,Made,1 ft,IND: 2,IND: 110,SAS: 94
+9:00.0,Q4,San Antonio Spurs,,,San Antonio full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 110,SAS: 94
+8:43.0,Q4,San Antonio Spurs,J. Champagnie,,Turnover by J. Champagnie(lost ball; steal by P. Siakam),Turnover,lost ball; steal by P. Siakam,N/A,N/A,No points scored,IND: 110,SAS: 94
+8:38.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam misses 2-pt layup from 3 ft,Shot,Layup,Missed,3 ft,No points scored,IND: 110,SAS: 94
+8:35.0,Q4,Indiana Pacers,P. Siakam,,Offensive rebound by P. Siakam,Rebound,Offensive,N/A,N/A,No points scored,IND: 110,SAS: 94
+8:34.0,Q4,Indiana Pacers,J. Champagnie,P. Siakam,Shooting foul by J. Champagnie(drawn by P. Siakam),Foul,Shooting,N/A,N/A,No points scored,IND: 110,SAS: 94
+8:34.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 111,SAS: 94
+8:34.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam makes free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 112,SAS: 94
+8:19.0,Q4,San Antonio Spurs,S. Mamukelashvili,,S. Mamukelashvili misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 112,SAS: 94
+8:16.0,Q4,Indiana Pacers,,,Defensive rebound by Team,Rebound,Defensive,N/A,N/A,No points scored,IND: 112,SAS: 94
+8:16.0,Q4,San Antonio Spurs,D. Vassell,,D. Vassell enters the game for J. Champagnie,Substitution,Enters Game,N/A,N/A,No points scored,IND: 112,SAS: 94
+8:03.0,Q4,Indiana Pacers,T. McConnell,A. Nesmith,T. McConnell makes 2-pt jump shot from 19 ft (assist by A. Nesmith),Shot,Jump Shot,Made,19 ft,IND: 2,IND: 114,SAS: 94
+7:44.0,Q4,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 114,SAS: 94
+7:42.0,Q4,Indiana Pacers,A. Nesmith,,Defensive rebound by A. Nesmith,Rebound,Defensive,N/A,N/A,No points scored,IND: 114,SAS: 94
+7:31.0,Q4,Indiana Pacers,B. Sheppard,,Turnover by B. Sheppard(bad pass; steal by D. Vassell),Turnover,bad pass; steal by D. Vassell,N/A,N/A,No points scored,IND: 114,SAS: 94
+7:25.0,Q4,San Antonio Spurs,S. Castle,M. Turner,S. Castle misses 2-pt layup from 4 ft (block by M. Turner),Shot,Layup,Missed,4 ft,No points scored,IND: 114,SAS: 94
+7:22.0,Q4,Indiana Pacers,A. Nesmith,,Defensive rebound by A. Nesmith,Rebound,Defensive,N/A,N/A,No points scored,IND: 114,SAS: 94
+7:18.0,Q4,Indiana Pacers,T. McConnell,,T. McConnell makes 2-pt layup from 3 ft,Shot,Layup,Made,3 ft,IND: 2,IND: 116,SAS: 94
+7:16.0,Q4,San Antonio Spurs,,,San Antonio full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 116,SAS: 94
+7:16.0,Q4,Indiana Pacers,A. Nembhard,,A. Nembhard enters the game for B. Sheppard,Substitution,Enters Game,N/A,N/A,No points scored,IND: 116,SAS: 94
+7:16.0,Q4,San Antonio Spurs,H. Barnes,,H. Barnes enters the game for S. Mamukelashvili,Substitution,Enters Game,N/A,N/A,No points scored,IND: 116,SAS: 94
+6:56.0,Q4,San Antonio Spurs,H. Barnes,,H. Barnes misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 116,SAS: 94
+6:53.0,Q4,San Antonio Spurs,H. Barnes,,Offensive rebound by H. Barnes,Rebound,Offensive,N/A,N/A,No points scored,IND: 116,SAS: 94
+6:50.0,Q4,San Antonio Spurs,C. Paul,,C. Paul misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 116,SAS: 94
+6:48.0,Q4,Indiana Pacers,P. Siakam,,Defensive rebound by P. Siakam,Rebound,Defensive,N/A,N/A,No points scored,IND: 116,SAS: 94
+6:41.0,Q4,Indiana Pacers,P. Siakam,,P. Siakam makes 2-pt jump shot from 9 ft,Shot,Jump Shot,Made,9 ft,IND: 2,IND: 118,SAS: 94
+6:32.0,Q4,San Antonio Spurs,A. Nesmith,S. Castle,Personal foul by A. Nesmith(drawn by S. Castle),Foul,Personal,N/A,N/A,No points scored,IND: 118,SAS: 94
+6:25.0,Q4,San Antonio Spurs,M. Turner,C. Paul,Personal foul by M. Turner(drawn by C. Paul),Foul,Personal,N/A,N/A,No points scored,IND: 118,SAS: 94
+6:20.0,Q4,San Antonio Spurs,S. Castle,,S. Castle misses 2-pt jump shot from 14 ft,Shot,Jump Shot,Missed,14 ft,No points scored,IND: 118,SAS: 94
+6:18.0,Q4,Indiana Pacers,T. McConnell,,Defensive rebound by T. McConnell,Rebound,Defensive,N/A,N/A,No points scored,IND: 118,SAS: 94
+6:12.0,Q4,Indiana Pacers,T. McConnell,,T. McConnell makes 2-pt layup from 2 ft,Shot,Layup,Made,2 ft,IND: 2,IND: 120,SAS: 94
+5:57.0,Q4,San Antonio Spurs,D. Vassell,,D. Vassell misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 120,SAS: 94
+5:54.0,Q4,Indiana Pacers,,,Defensive rebound by Team,Rebound,Defensive,N/A,N/A,No points scored,IND: 120,SAS: 94
+5:54.0,Q4,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 120,SAS: 94
+5:54.0,Q4,Indiana Pacers,,,Instant Replay (Challenge: Ruling Stands),,,N/A,N/A,No points scored,IND: 120,SAS: 94
+5:54.0,Q4,Indiana Pacers,B. Sheppard,,B. Sheppard enters the game for A. Nesmith,Substitution,Enters Game,N/A,N/A,No points scored,IND: 120,SAS: 94
+5:34.0,Q4,Indiana Pacers,A. Nembhard,T. McConnell,A. Nembhard makes 3-pt jump shot from 32 ft (assist by T. McConnell),Shot,Jump Shot,Made,32 ft,IND: 3,IND: 123,SAS: 94
+5:17.0,Q4,San Antonio Spurs,H. Barnes,S. Castle,H. Barnes makes 2-pt dunk from 3 ft (assist by S. Castle),Shot,Dunk,Made,3 ft,SAS: 2,IND: 123,SAS: 96
+5:09.0,Q4,Indiana Pacers,B. Sheppard,,B. Sheppard misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 123,SAS: 96
+5:08.0,Q4,San Antonio Spurs,H. Barnes,,Defensive rebound by H. Barnes,Rebound,Defensive,N/A,N/A,No points scored,IND: 123,SAS: 96
+5:08.0,Q4,San Antonio Spurs,B. Sheppard,H. Barnes,Personal foul by B. Sheppard(drawn by H. Barnes),Foul,Personal,N/A,N/A,No points scored,IND: 123,SAS: 96
+5:00.0,Q4,San Antonio Spurs,S. Castle,T. McConnell,S. Castle misses 2-pt layup from 5 ft (block by T. McConnell),Shot,Layup,Missed,5 ft,No points scored,IND: 123,SAS: 96
+4:57.0,Q4,San Antonio Spurs,S. Castle,,Offensive rebound by S. Castle,Rebound,Offensive,N/A,N/A,No points scored,IND: 123,SAS: 96
+4:56.0,Q4,San Antonio Spurs,H. Barnes,,H. Barnes misses 3-pt jump shot from 23 ft,Shot,Jump Shot,Missed,23 ft,No points scored,IND: 123,SAS: 96
+4:54.0,Q4,Indiana Pacers,A. Nembhard,,Defensive rebound by A. Nembhard,Rebound,Defensive,N/A,N/A,No points scored,IND: 123,SAS: 96
+4:50.0,Q4,Indiana Pacers,T. McConnell,,T. McConnell makes 2-pt jump shot from 11 ft,Shot,Jump Shot,Made,11 ft,IND: 2,IND: 125,SAS: 96
+4:33.0,Q4,San Antonio Spurs,M. Turner,V. Wembanyama,Shooting foul by M. Turner(drawn by V. Wembanyama),Foul,Shooting,N/A,N/A,No points scored,IND: 125,SAS: 96
+4:33.0,Q4,San Antonio Spurs,V. Wembanyama,,V. Wembanyama makes free throw 1 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 125,SAS: 97
+4:33.0,Q4,Indiana Pacers,T. Bryant,,T. Bryant enters the game for A. Nembhard,Substitution,Enters Game,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,Indiana Pacers,O. Toppin,,O. Toppin enters the game for P. Siakam,Substitution,Enters Game,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,Indiana Pacers,J. Walker,,J. Walker enters the game for M. Turner,Substitution,Enters Game,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,Indiana Pacers,,,Indiana full timeout,Timeout,Full,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,San Antonio Spurs,M. Branham,,M. Branham enters the game for H. Barnes,Substitution,Enters Game,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,San Antonio Spurs,S. Cissoko,,S. Cissoko enters the game for C. Paul,Substitution,Enters Game,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:33.0,Q4,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses free throw 2 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 125,SAS: 97
+4:32.0,Q4,Indiana Pacers,T. McConnell,,Defensive rebound by T. McConnell,Rebound,Defensive,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:13.0,Q4,Indiana Pacers,T. McConnell,,T. McConnell misses 2-pt layup from 3 ft,Shot,Layup,Missed,3 ft,No points scored,IND: 125,SAS: 97
+4:11.0,Q4,San Antonio Spurs,V. Wembanyama,,Defensive rebound by V. Wembanyama,Rebound,Defensive,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:07.0,Q4,San Antonio Spurs,V. Wembanyama,,V. Wembanyama misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 125,SAS: 97
+4:03.0,Q4,San Antonio Spurs,S. Cissoko,,Offensive rebound by S. Cissoko,Rebound,Offensive,N/A,N/A,No points scored,IND: 125,SAS: 97
+4:00.0,Q4,San Antonio Spurs,V. Wembanyama,,Turnover by V. Wembanyama(bad pass; steal by B. Sheppard),Turnover,bad pass; steal by B. Sheppard,N/A,N/A,No points scored,IND: 125,SAS: 97
+3:55.0,Q4,Indiana Pacers,O. Toppin,T. McConnell,O. Toppin makes 2-pt layup from 3 ft (assist by T. McConnell),Shot,Layup,Made,3 ft,IND: 2,IND: 127,SAS: 97
+3:35.0,Q4,San Antonio Spurs,V. Wembanyama,,Turnover by V. Wembanyama(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:35.0,Q4,Indiana Pacers,J. Furphy,,J. Furphy enters the game for T. McConnell,Substitution,Enters Game,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:35.0,Q4,San Antonio Spurs,Z. Collins,,Z. Collins enters the game for V. Wembanyama,Substitution,Enters Game,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:17.0,Q4,Indiana Pacers,S. Cissoko,J. Walker,Personal foul by S. Cissoko(drawn by J. Walker),Foul,Personal,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:17.0,Q4,Indiana Pacers,R. Dennis,,R. Dennis enters the game for O. Toppin,Substitution,Enters Game,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:17.0,Q4,San Antonio Spurs,C. Bassey,,C. Bassey enters the game for S. Castle,Substitution,Enters Game,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:17.0,Q4,San Antonio Spurs,B. Wesley,,B. Wesley enters the game for D. Vassell,Substitution,Enters Game,N/A,N/A,No points scored,IND: 127,SAS: 97
+3:04.0,Q4,Indiana Pacers,T. Bryant,J. Walker,T. Bryant makes 2-pt layup from 1 ft (assist by J. Walker),Shot,Layup,Made,1 ft,IND: 2,IND: 129,SAS: 97
+2:43.0,Q4,San Antonio Spurs,S. Cissoko,,S. Cissoko misses 3-pt jump shot from 28 ft,Shot,Jump Shot,Missed,28 ft,No points scored,IND: 129,SAS: 97
+2:40.0,Q4,Indiana Pacers,R. Dennis,,Defensive rebound by R. Dennis,Rebound,Defensive,N/A,N/A,No points scored,IND: 129,SAS: 97
+2:18.0,Q4,Indiana Pacers,T. Bryant,Z. Collins,T. Bryant misses 2-pt layup from 3 ft (block by Z. Collins),Shot,Layup,Missed,3 ft,No points scored,IND: 129,SAS: 97
+2:15.0,Q4,San Antonio Spurs,C. Bassey,,Defensive rebound by C. Bassey,Rebound,Defensive,N/A,N/A,No points scored,IND: 129,SAS: 97
+2:14.0,Q4,San Antonio Spurs,J. Walker,S. Cissoko,Flagrant foul type 1 byJ. Walker(drawn by S. Cissoko),Foul,Flagrant,N/A,N/A,No points scored,IND: 129,SAS: 97
+2:14.0,Q4,San Antonio Spurs,,,Instant Replay (Request: Ruling Stands),,,N/A,N/A,No points scored,IND: 129,SAS: 97
+2:14.0,Q4,San Antonio Spurs,S. Cissoko,,S. Cissoko misses flagrant free throw 1 of 2,Shot,Free Throw,Missed,N/A,No points scored,IND: 129,SAS: 97
+2:14.0,Q4,San Antonio Spurs,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 129,SAS: 97
+2:14.0,Q4,San Antonio Spurs,S. Cissoko,,S. Cissoko makes flagrant free throw 2 of 2,Shot,Free Throw,Made,N/A,SAS: 1,IND: 129,SAS: 98
+2:14.0,Q4,San Antonio Spurs,S. Mamukelashvili,,S. Mamukelashvili enters the game for S. Cissoko,Substitution,Enters Game,N/A,N/A,No points scored,IND: 129,SAS: 98
+2:11.0,Q4,San Antonio Spurs,M. Branham,,Turnover by M. Branham(bad pass),Turnover,bad pass,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:56.0,Q4,Indiana Pacers,R. Dennis,,R. Dennis misses 3-pt jump shot from 25 ft,Shot,Jump Shot,Missed,25 ft,No points scored,IND: 129,SAS: 98
+1:53.0,Q4,San Antonio Spurs,Z. Collins,,Defensive rebound by Z. Collins,Rebound,Defensive,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:40.0,Q4,San Antonio Spurs,M. Branham,,M. Branham misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 129,SAS: 98
+1:39.0,Q4,Indiana Pacers,R. Dennis,,Defensive rebound by R. Dennis,Rebound,Defensive,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:35.0,Q4,Indiana Pacers,S. Mamukelashvili,T. Bryant,Flagrant foul type 2 byS. Mamukelashvili(drawn by T. Bryant),Foul,Flagrant,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:35.0,Q4,Indiana Pacers,,,Instant Replay (Request: Ruling Stands),,,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:35.0,Q4,San Antonio Spurs,S. Mamukelashviliejected,,S. Mamukelashviliejected from game,,,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:35.0,Q4,San Antonio Spurs,S. Castle,,S. Castle enters the game for S. Mamukelashvili,Substitution,Enters Game,N/A,N/A,No points scored,IND: 129,SAS: 98
+1:35.0,Q4,Indiana Pacers,T. Bryant,,T. Bryant makes flagrant free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 130,SAS: 98
+1:35.0,Q4,Indiana Pacers,T. Bryant,,T. Bryant makes flagrant free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 131,SAS: 98
+1:29.0,Q4,Indiana Pacers,J. Walker,R. Dennis,J. Walker makes 3-pt jump shot from 26 ft (assist by R. Dennis),Shot,Jump Shot,Made,26 ft,IND: 3,IND: 134,SAS: 98
+1:13.0,Q4,San Antonio Spurs,B. Wesley,,Turnover by B. Wesley(lost ball; steal by R. Dennis),Turnover,lost ball; steal by R. Dennis,N/A,N/A,No points scored,IND: 134,SAS: 98
+1:09.0,Q4,Indiana Pacers,M. Branham,J. Furphy,Personal foul by M. Branham(drawn by J. Furphy),Foul,Personal,N/A,N/A,No points scored,IND: 134,SAS: 98
+1:09.0,Q4,Indiana Pacers,J. Furphy,,J. Furphy makes free throw 1 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 135,SAS: 98
+1:09.0,Q4,Indiana Pacers,J. Furphy,,J. Furphy makes free throw 2 of 2,Shot,Free Throw,Made,N/A,IND: 1,IND: 136,SAS: 98
+0:59.0,Q4,San Antonio Spurs,M. Branham,,Turnover by M. Branham(bad pass; steal by T. Bryant),Turnover,bad pass; steal by T. Bryant,N/A,N/A,No points scored,IND: 136,SAS: 98
+0:49.0,Q4,Indiana Pacers,T. Bryant,,T. Bryant misses 3-pt jump shot from 26 ft,Shot,Jump Shot,Missed,26 ft,No points scored,IND: 136,SAS: 98
+0:46.0,Q4,Indiana Pacers,,,Offensive rebound by Team,Rebound,Offensive,N/A,N/A,No points scored,IND: 136,SAS: 98
+0:42.0,Q4,Indiana Pacers,J. Walker,,J. Walker misses 3-pt jump shot from 27 ft,Shot,Jump Shot,Missed,27 ft,No points scored,IND: 136,SAS: 98
+0:38.0,Q4,San Antonio Spurs,S. Castle,,Defensive rebound by S. Castle,Rebound,Defensive,N/A,N/A,No points scored,IND: 136,SAS: 98
+0:24.0,Q4,San Antonio Spurs,M. Branham,,M. Branham misses 2-pt jump shot from 16 ft,Shot,Jump Shot,Missed,16 ft,No points scored,IND: 136,SAS: 98
+0:21.0,Q4,Indiana Pacers,J. Walker,,Defensive rebound by J. Walker,Rebound,Defensive,N/A,N/A,No points scored,IND: 136,SAS: 98

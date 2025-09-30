@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Input Matters: NBA Hallucinations</title>
+</head>
+<body style="font-family:sans-serif; max-width:800px; margin:2rem auto; line-height:1.6">
+  <h1>Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play</h1>
+  <p><strong>Barkavi Sundararajan, Yaji Sripada, Ehud Reiter</strong> <br/>Preprint 2025</p>
+
+  <p>
+    <a href="#"> Paper (link soon)</a> | 
+    <a href="https://github.com/BarkaviSJ/nba-input-matters">Dataset</a>
+  </p>
+
+  <h2>Hallucination / Error Types with Examples</h2>
+  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%">
+    <tr style="background:#f0f0f0">
+      <th>Category</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td><strong>NUMBER</strong></td>
+      <td>Incorrect numeric statistics (scores, rebounds, points).</td>
+      <td>
+        Erroneous: “The score was <mark class="err-number">12–8</mark>.”<br/>
+        Correction: The correct score was <strong>25–22</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>NAME</strong></td>
+      <td>Wrong names of players, teams, or locations.</td>
+      <td>
+        Erroneous: “Assist by <mark class="err-name">LeBron James</mark>.”<br/>
+        Correction: The assist was by <strong>Jaylen Brown</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>WORD_OBJECTIVE</strong></td>
+      <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
+      <td>
+        Erroneous: “<mark class="err-wordobj">Free throws</mark> brought the Rockets within range.”<br/>
+        Correction: The player actually made <strong>two layups</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>WORD_SUBJECTIVE</strong></td>
+      <td>Unverifiable opinions or subjective phrasing.</td>
+      <td>
+        Erroneous: “The bench <mark class="err-wordsub">provided a spark</mark>.”<br/>
+        Correction: They scored 6 points in the quarter (whether that is a “spark” is subjective).
+      </td>
+    </tr>
+    <tr>
+      <td><strong>CONTEXT</strong></td>
+      <td>Player incorrectly implied to belong to the wrong team in the play-by-play input. </td>
+      <td>
+        Erroneous: “<mark class="err-context">Christian Wood</mark> hit a buzzer-beater for the Rockets.”<br/>
+        Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>NOT_CHECKABLE</strong></td>
+      <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
+      <td>
+        Erroneous: “Brown had his <mark class="err-notcheck">career-high</mark> tonight.”<br/>
+        Correction: This cannot be verified from play-by-play logs; requires external career data.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>OTHER</strong></td>
+      <td>Any other mistake not covered above.</td>
+      <td>
+        Erroneous: Miscellaneous mistake not fitting other categories.<br/>
+    
+      </td>
+    </tr>
+  </table>
+  
+
+  <footer style="margin-top:2rem; font-size:0.9em; color:gray">
+    © 2025 Barkavi Sundararajan — Project page hosted on GitHub Pages
+  </footer>
+</body>
+</html>
