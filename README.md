@@ -1,8 +1,8 @@
 # Input Matters: Evaluating Input Structure’s Impact on LLM Summaries of Sports Play-by-Play
 
-**Authors:** Barkavi Sundararajan, Somayajulu (Yaji) Sripada, Ehud Reiter  
-**Venue:** INLG 2025 (Hanoi, Vietnam)  
+**Authors:** Barkavi Sundararajan, Somayajulu (Yaji) Sripada, Ehud Reiter   
 **Affiliation:** University of Aberdeen
+**Accepted at:** INLG 2025
 
 **[Project Page](https://barkavisj.github.io/nba-input-matters/)** | **[Paper](https://2025.inlgmeeting.org/accepted-papers.html)** | **Poster**
 
