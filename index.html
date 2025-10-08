@@ -2,86 +2,380 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Input Matters: NBA Hallucinations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play</title>
+  <meta name="description" content="How input structure (unstructured vs row vs JSON) affects factual errors in LLM-generated NBA summaries. Accepted at INLG 2025." />
+  <style>
+    :root{
+      --ink:#111; --muted:#555; --line:#e6e6e6; --accent:#0b66ff; --bg:#fff;
+      --mark:#fff6a5; /* yellow highlight for errors */
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6}
+    .wrap{max-width:900px; margin:auto; padding:2rem 1.25rem 3rem}
+    header{padding-bottom:1rem; border-bottom:1px solid var(--line)}
+    h1{margin:.25rem 0 .5rem; font-size:clamp(1.4rem,2.1vw + 1rem,2.2rem)}
+    h2{font-size:1.25rem; margin:.2rem 0 .6rem}
+    .sub{color:var(--muted); margin:.25rem 0}
+    .kicker{font-size:.9rem; color:var(--muted)}
+    .links{display:flex; gap:.6rem; flex-wrap:wrap; margin:.75rem 0 0}
+    .linkbtn{display:inline-block; padding:.5rem .8rem; border:1px solid var(--line); border-radius:.6rem; text-decoration:none; color:var(--ink); background:#fafafa}
+    .linkbtn.primary{background:var(--accent); color:#fff; border-color:var(--accent)}
+    section{padding:1.25rem 0; border-bottom:1px solid var(--line)}
+    section:last-of-type{border-bottom:none}
+    .lead{background:#fafafa; border:1px solid var(--line); border-radius:.6rem; padding:.75rem; color:var(--muted)}
+    ul.highlights{margin:.6rem 0 0; padding-left:1.25rem}
+    ul.highlights li{margin:.2rem 0}
+
+    /* tables & code */
+    table{width:100%; border-collapse:collapse; margin:.6rem 0}
+    th, td{border:1px solid var(--line); padding:.55rem .5rem; vertical-align:top}
+    th{background:#f7f7f9; text-align:left}
+    pre{background:#fafafa; border:1px solid var(--line); border-radius:.5rem; padding:.7rem; overflow:auto}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+    /* tabs for input comparison */
+    .tabs{display:flex; gap:.4rem; flex-wrap:wrap; margin:.2rem 0 .4rem}
+    .tab{padding:.4rem .75rem; border:1px solid var(--line); border-radius:.5rem; background:#f9fafb; cursor:pointer}
+    .tab.active{background:#eaf2ff; border-color:#cfe2ff}
+    .tabpane{display:none}
+    .tabpane.show{display:block}
+
+    /* yellow error highlight */
+    mark{background:var(--mark); padding:.05rem .25rem; border-radius:.2rem}
+
+    footer{margin-top:1.5rem; color:var(--muted); font-size:.95rem; text-align:center}
+  </style>
 </head>
-<body style="font-family:sans-serif; max-width:800px; margin:2rem auto; line-height:1.6">
-  <h1>Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play</h1>
-  <p><strong>Barkavi Sundararajan, Yaji Sripada, Ehud Reiter</strong> <br/>Preprint 2025</p>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">Accepted at INLG 2025</div>
+      <h1>Input Matters: Evaluating Input Structure’s Impact on LLM Summaries of Sports Play-by-Play</h1>
+      <p class="sub"><strong>Barkavi Sundararajan, Somayajulu (Yaji) Sripada, Ehud Reiter, University of Aberdeen</strong></p>
 
-  <p>
-    <a href="#"> Paper (link soon)</a> | 
-    <a href="https://github.com/BarkaviSJ/nba-input-matters">Dataset</a>
-  </p>
+      <div class="links">
+        <a class="linkbtn" href="https://2025.inlgmeeting.org/accepted-papers.html" rel="noopener">Paper </a>
+        <a class="linkbtn" href="https://2025.inlgmeeting.org/accepted-papers.html" rel="noopener">Poster</a>
+        <a class="linkbtn" href="https://drive.google.com/drive/folders/12WhYIkPkP4MasOU7Dg2k-nr8Kxi5UM_X?usp=sharing" rel="noopener">Row data (Google Drive)</a>
+        <a class="linkbtn" href="https://drive.google.com/drive/folders/1rXU1QeRyjJcI-B1i4RTIDufUU5DT0tXA?usp=drive_link" rel="noopener">JSON data (Google Drive)</a>
+        <a class="linkbtn" href="https://github.com/BarkaviSJ/nba-input-matters" rel="noopener">Repository</a>
+      </div>
 
-  <h2>Hallucination / Error Types with Examples</h2>
-  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%">
-    <tr style="background:#f0f0f0">
-      <th>Category</th>
-      <th>Description</th>
-      <th>Example</th>
-    </tr>
-    <tr>
-      <td><strong>NUMBER</strong></td>
-      <td>Incorrect numeric statistics (scores, rebounds, points).</td>
-      <td>
-        Erroneous: “The score was <mark class="err-number">12–8</mark>.”<br/>
-        Correction: The correct score was <strong>25–22</strong>.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>NAME</strong></td>
-      <td>Wrong names of players, teams, or locations.</td>
-      <td>
-        Erroneous: “Assist by <mark class="err-name">LeBron James</mark>.”<br/>
-        Correction: The assist was by <strong>Jaylen Brown</strong>.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>WORD_OBJECTIVE</strong></td>
-      <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
-      <td>
-        Erroneous: “<mark class="err-wordobj">Free throws</mark> brought the Rockets within range.”<br/>
-        Correction: The player actually made <strong>two layups</strong>.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>WORD_SUBJECTIVE</strong></td>
-      <td>Unverifiable opinions or subjective phrasing.</td>
-      <td>
-        Erroneous: “The bench <mark class="err-wordsub">provided a spark</mark>.”<br/>
-        Correction: They scored 6 points in the quarter (whether that is a “spark” is subjective).
-      </td>
-    </tr>
-    <tr>
-      <td><strong>CONTEXT</strong></td>
-      <td>Player incorrectly implied to belong to the wrong team in the play-by-play input. </td>
-      <td>
-        Erroneous: “<mark class="err-context">Christian Wood</mark> hit a buzzer-beater for the Rockets.”<br/>
-        Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>NOT_CHECKABLE</strong></td>
-      <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
-      <td>
-        Erroneous: “Brown had his <mark class="err-notcheck">career-high</mark> tonight.”<br/>
-        Correction: This cannot be verified from play-by-play logs; requires external career data.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>OTHER</strong></td>
-      <td>Any other mistake not covered above.</td>
-      <td>
-        Erroneous: Miscellaneous mistake not fitting other categories.<br/>
+      <p class="lead">
+        Input structure strongly influences factual accuracy in LLM-generated NBA game summaries. Here, factual accuracy refers to faithfulness to the given input data. This page provides a brief overview of the input-format comparison, the error-type reference table used in evaluation, and annotated examples.
+      </p>
+
+      <ul class="highlights">
+        <li>180 summaries; 3,312 labeled errors</li>
+        <li>JSON input: ~65 to 69% fewer errors vs. unstructured</li>
+        <li>Row input: ~51 to 54% fewer errors vs. unstructured</li>
+      </ul>
+    </header>
+
+    <!-- Input data comparison -->
+    <section>
+      <h2>Input Structures (Partial game excerpts from the NBA play-by-play logs)</h2>
     
-      </td>
-    </tr>
-  </table>
-  
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-target="pane-unstructured">Unstructured</button>
+        <button class="tab" data-target="pane-row">Row-structured CSV</button>
+        <button class="tab" data-target="pane-json">Hierarchical JSON</button>
+      </div>
+    
+      <!-- Pane 1: Unstructured -->
+      <div id="pane-unstructured" class="tabpane show">
+        <table>
+          <thead>
+            <tr><th>Time</th><th>LA Lakers</th><th>Score</th><th>Atlanta</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>5:00.0</td><td>Start of 1st overtime</td><td>—</td><td>—</td></tr>
+            <tr><td>2:56.0</td><td>A. Davis makes free throw 1 of 2</td><td>123–123</td><td>—</td></tr>
+            <tr><td>2:56.0</td><td>A. Davis makes free throw 2 of 2</td><td>124–123</td><td>—</td></tr>
+            <tr><td>2:45.0</td><td>—</td><td>124–123</td><td>D. Hunter misses 2-pt layup (block by L. James)</td></tr>
+            <tr><td>2:33.0</td><td>—</td><td>124–125</td><td>T. Young makes 2-pt layup</td></tr>
+            <tr><td>2:13.0</td><td>L. James makes 3-pt jump shot</td><td>127–125</td><td>—</td></tr>
+          </tbody>
+        </table>
+        <p class="sub">Free-text log: event semantics embedded in team columns; cells may combine multiple attributes.</p>
+      </div>
+    
+      <!-- Pane 2: Row (single 13-column table) -->
+      <div id="pane-row" class="tabpane">
+        <div class="table-scroll" style="overflow-x:auto;">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Period</th>
+                <th>Team</th>
+                <th>Primary Player</th>
+                <th>Secondary Player</th>
+                <th>Play Description</th>
+                <th>Event Type</th>
+                <th>Action Type</th>
+                <th>Outcome</th>
+                <th>Distance (ft)</th>
+                <th>Current Points Scored</th>
+                <th>LAL Cum. Score</th>
+                <th>ATL Cum. Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2:56.0</td>
+                <td>OT1</td>
+                <td>Los Angeles Lakers</td>
+                <td>Anthony Davis</td>
+                <td>N/A</td>
+                <td>Anthony Davis makes free throw 1 of 2</td>
+                <td>Shot</td>
+                <td>Free Throw</td>
+                <td>Made</td>
+                <td>N/A</td>
+                <td>LAL: 1</td>
+                <td>LAL: 123</td>
+                <td>ATL: 123</td>
+              </tr>
+              <tr>
+                <td>2:56.0</td>
+                <td>OT1</td>
+                <td>Los Angeles Lakers</td>
+                <td>Anthony Davis</td>
+                <td>N/A</td>
+                <td>Anthony Davis makes free throw 2 of 2</td>
+                <td>Shot</td>
+                <td>Free Throw</td>
+                <td>Made</td>
+                <td>N/A</td>
+                <td>LAL: 1</td>
+                <td>LAL: 124</td>
+                <td>ATL: 123</td>
+              </tr>
+              <tr>
+                <td>2:45.0</td>
+                <td>OT1</td>
+                <td>Atlanta Hawks</td>
+                <td>De'Andre Hunter</td>
+                <td>LeBron James</td>
+                <td>De'Andre Hunter misses 2-pt layup from 10 ft (block by LeBron James)</td>
+                <td>Shot</td>
+                <td>Layup</td>
+                <td>Missed</td>
+                <td>10</td>
+                <td>No points scored</td>
+                <td>LAL: 124</td>
+                <td>ATL: 123</td>
+              </tr>
+              <tr>
+                <td>2:44.0</td>
+                <td>OT1</td>
+                <td>Atlanta Hawks</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Offensive rebound by Team</td>
+                <td>Rebound</td>
+                <td>Offensive</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>No points scored</td>
+                <td>LAL: 124</td>
+                <td>ATL: 123</td>
+              </tr>
+              <tr>
+                <td>2:33.0</td>
+                <td>OT1</td>
+                <td>Atlanta Hawks</td>
+                <td>Trae Young</td>
+                <td>N/A</td>
+                <td>Trae Young makes 2-pt layup from 2 ft</td>
+                <td>Shot</td>
+                <td>Layup</td>
+                <td>Made</td>
+                <td>2</td>
+                <td>ATL: 2</td>
+                <td>LAL: 124</td>
+                <td>ATL: 125</td>
+              </tr>
+              <tr>
+                <td>2:13.0</td>
+                <td>OT1</td>
+                <td>Los Angeles Lakers</td>
+                <td>LeBron James</td>
+                <td>N/A</td>
+                <td>LeBron James makes 3-pt jump shot from 25 ft</td>
+                <td>Shot</td>
+                <td>Jump Shot</td>
+                <td>Made</td>
+                <td>25</td>
+                <td>LAL: 3</td>
+                <td>LAL: 127</td>
+                <td>ATL: 125</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="sub">Single 13-column table (the LaTeX panels merged). Not-applicable attributes appear as “N/A”; in the released dataset these are stored as <code>None</code>.</p>
+      </div>
+    
+      <!-- Pane 3: JSON (exactly as requested) -->
+      <div id="pane-json" class="tabpane">
+    <pre><code>{
+      "time": {
+        "period": "OT1",
+        "clock": "2:13.0"
+      },
+      "team": "Los Angeles Lakers",
+      "play_details": {
+        "description": "LeBron James makes 3-pt jump shot from 25 ft",
+        "event": {
+          "type": "Shot",
+          "action": "Jump Shot",
+          "outcome": "Made",
+          "distance": "25 ft",
+          "points": 3
+        },
+        "players": {
+          "primary_player": "LeBron James"
+        }
+      },
+      "score": {
+        "points_scored": "LAL: 3",
+        "cumulative": {
+          "LAL": 127,
+          "ATL": 125
+        }
+      }
+    }</code></pre>
+        <p class="sub">Hierarchical JSON groups time (period/clock), play details (event and players), and scoring (points in play and cumulative totals).</p>
+      </div>
+    </section>
+    
 
-  <footer style="margin-top:2rem; font-size:0.9em; color:gray">
-    © 2025 Barkavi Sundararajan — Project page hosted on GitHub Pages
-  </footer>
+
+
+    <!-- Error types table (with yellow highlight for errors) -->
+    <section>
+      <h2>Hallucination / Error Types with Examples</h2>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td><strong>NUMBER</strong></td>
+          <td>Incorrect numeric statistics (scores, rebounds, points).</td>
+          <td>
+            Erroneous: “The score was <mark>12–8</mark>.”<br/>
+            Correction: The correct score was <strong>25–22</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>NAME</strong></td>
+          <td>Wrong names of players, teams, or locations.</td>
+          <td>
+            Erroneous: “Assist by <mark>LeBron James</mark>.”<br/>
+            Correction: The assist was by <strong>Jaylen Brown</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>WORD_OBJECTIVE</strong></td>
+          <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
+          <td>
+            Erroneous: “<mark>Free throws</mark> brought the Rockets within range.”<br/>
+            Correction: The player actually made <strong>two layups</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>WORD_SUBJECTIVE</strong></td>
+          <td>Unverifiable opinions or subjective phrasing.</td>
+          <td>
+            Erroneous: “The bench <mark>provided a spark</mark>.”<br/>
+            Correction: They scored 6 points in the quarter (whether that is a “spark” is subjective).
+          </td>
+        </tr>
+        <tr>
+          <td><strong>CONTEXT</strong></td>
+          <td>Player incorrectly implied to belong to the wrong team in the play-by-play input.</td>
+          <td>
+            Erroneous: “<mark>Christian Wood</mark> hit a buzzer-beater for the Rockets.”<br/>
+            Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>NOT_CHECKABLE</strong></td>
+          <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
+          <td>
+            Erroneous: “Brown had his <mark>career-high</mark> tonight.”<br/>
+            Correction: This cannot be verified from play-by-play logs; requires external career data.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>OTHER</strong></td>
+          <td>Any other mistake not covered above.</td>
+          <td>Erroneous: Miscellaneous mistake not fitting other categories.</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Summary examples by input type (yellow highlights for errors) -->
+    <section>
+      <h2>Summary Examples with Annotations</h2>
+
+      <h3 style="margin:.2rem 0 .4rem; font-size:1.05rem">Unstructured input → Llama (partial)</h3>
+      <p>
+        The Lakers fought back, with James and Davis leading the charge. James hit
+        <mark>a pair of three-pointers</mark>, and Davis added <mark>a dunk and a layup</mark>
+        to tie the game at <mark>130</mark>–<mark>129</mark>. James and Davis combined for
+        <mark>63</mark> points. Young and <mark>Bogdanovic</mark> led the Hawks, combining for <mark>61</mark> points.
+      </p>
+      <p class="sub"> WORD OBJECTIVE, NUMBER and NAME errors. Several errors appear in event type, scoring totals, and player name.</p>
+
+      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">Row input → Qwen (partial)</h3>
+      <p>
+        Anthony Davis made a pair of free throws to tie the game at 123. LeBron James then hit a three-pointer
+        to give the Lakers a 127–125 lead, but Trae Young answered <mark>with a layup</mark> to tie it again.
+        LeBron James finished with a <mark>double</mark>-double…
+      </p>
+      <p class="sub">Errors include event substitution (“layup” vs. jump shot) and stat summary (“double” vs. triple-double).</p>
+
+      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">JSON input → Qwen (partial)</h3>
+      <p>
+        The Hawks took an early lead with a layup from Onyeka Okongwu, but the Lakers quickly
+        <mark>tied it</mark> with a three-pointer from Max Christie…
+      </p>
+      <p class="sub">Phrase “tied it” is misleading; the team responded with a three-pointer but did not tie the game.</p>
+    </section>
+      <!-- Dataset -->
+      <section>
+        <h2>Dataset</h2>
+        <ul>
+          <li><a href="https://drive.google.com/drive/folders/12WhYIkPkP4MasOU7Dg2k-nr8Kxi5UM_X?usp=sharing" rel="noopener">Row-structured play-by-play (Google Drive)</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1rXU1QeRyjJcI-B1i4RTIDufUU5DT0tXA?usp=drive_link" rel="noopener">JSON-structured play-by-play (Google Drive)</a></li>
+        </ul>
+        <p class="sub">Please cite the paper if these resources are used.</p>
+      </section>
+
+    <!-- BibTeX -->
+    <section>
+      <h2>BibTeX</h2>
+    </section>
+
+    <footer>© 2025 Barkavi Sundararajan — Project page hosted on GitHub Pages</footer>
+  </div>
+
+  <script>
+    // Simple tabs for the input comparison
+    const tabs = document.querySelectorAll('.tab');
+    const panes = document.querySelectorAll('.tabpane');
+    tabs.forEach(t => t.addEventListener('click', () => {
+      tabs.forEach(x => x.classList.remove('active'));
+      panes.forEach(p => p.classList.remove('show'));
+      t.classList.add('active');
+      document.getElementById(t.dataset.target).classList.add('show');
+    }));
+  </script>
 </body>
 </html>
