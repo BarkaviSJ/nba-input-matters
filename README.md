@@ -4,7 +4,7 @@
 **Venue:** INLG 2025 (Hanoi, Vietnam)  
 **Affiliation:** University of Aberdeen
 
-**[Project Page]**(https://barkavisj.github.io/nba-input-matters/) | **[Paper]**(https://2025.inlgmeeting.org/accepted-papers.html) | **Poster**
+**[Project Page](https://barkavisj.github.io/nba-input-matters/)** | **[Paper](https://2025.inlgmeeting.org/accepted-papers.html)** | **Poster**
 
 This repository provides the structured NBA play-by-play input data in CSV (row-structured) and hierarchical JSON for the latest season NBA games.
 
