@@ -4,7 +4,7 @@
 **Affiliation:** University of Aberdeen
 **Accepted at:** INLG 2025
 
-**[Project Page](https://barkavisj.github.io/nba-input-matters/)** | **[Paper](https://2025.inlgmeeting.org/accepted-papers.html)** | **Poster**
+**[Project Page](https://barkavisj.github.io/nba-input-matters/)** | **[Paper](https://arxiv.org/pdf/2510.21034)** | **[Poster](https://github.com/BarkaviSJ/nba-input-matters/blob/main/assets/input_matters_poster_inlg2025.pdf)**
 
 This repository provides the structured NBA play-by-play input data in CSV (row-structured) and hierarchical JSON for the latest season NBA games.
 
