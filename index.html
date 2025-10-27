@@ -9,7 +9,10 @@
     :root{
       --ink:#111; --muted:#555; --line:#e6e6e6; --accent:#0b66ff; --bg:#fff;
       --mark:#fff6a5; /* yellow highlight for errors */
+      --table-border:#d9d9d9;    /* outer border color */
     }
+    
+    /* Layout & typography */
     *{box-sizing:border-box}
     body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6}
     .wrap{max-width:900px; margin:auto; padding:2rem 1.25rem 3rem}
@@ -26,26 +29,97 @@
     .lead{background:#fafafa; border:1px solid var(--line); border-radius:.6rem; padding:.75rem; color:var(--muted)}
     ul.highlights{margin:.6rem 0 0; padding-left:1.25rem}
     ul.highlights li{margin:.2rem 0}
-
-    /* tables & code */
+    
+    /* Tables & code */
     table{width:100%; border-collapse:collapse; margin:.6rem 0}
     th, td{border:1px solid var(--line); padding:.55rem .5rem; vertical-align:top}
     th{background:#f7f7f9; text-align:left}
     pre{background:#fafafa; border:1px solid var(--line); border-radius:.5rem; padding:.7rem; overflow:auto}
     code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-
-    /* tabs for input comparison */
+    
+    /* Tabs */
     .tabs{display:flex; gap:.4rem; flex-wrap:wrap; margin:.2rem 0 .4rem}
     .tab{padding:.4rem .75rem; border:1px solid var(--line); border-radius:.5rem; background:#f9fafb; cursor:pointer}
     .tab.active{background:#eaf2ff; border-color:#cfe2ff}
     .tabpane{display:none}
     .tabpane.show{display:block}
-
-    /* yellow error highlight */
+    
+    /* Generic mark highlight */
     mark{background:var(--mark); padding:.05rem .25rem; border-radius:.2rem}
-
+    
+    /* Footer */
     footer{margin-top:1.5rem; color:var(--muted); font-size:.95rem; text-align:center}
-  </style>
+    
+    /* Tables with black borders    */
+    .table-bordered{
+      border:1px solid #000;       /* outer box */
+      border-collapse:collapse;
+    }
+    .table-bordered th,
+    .table-bordered td{
+      border:1px solid #000;       /* each column/row line */
+    }
+    
+    /* Error & badge styling        */
+    .err{
+      background: var(--mark);
+      color: #91051f;               
+      font-weight: 600;
+      padding: .05rem .25rem;      
+      border-radius: .2rem;
+    }
+    
+    /* Superscript badge; highlighted too */
+    .badge{
+      display:inline-block;         
+      font-size:.7em;
+      font-weight:700;
+      background: var(--mark);
+      color:#91051f;
+      padding:0 .25rem;
+      border-radius:.25rem;
+      line-height:1;
+      margin-left:0;                
+      vertical-align:super;
+      box-shadow:0 0 0 1px rgba(145,5,31,.15) inset; 
+    }
+
+    section h3 + p span.err{
+      padding-right:0;              
+      display:inline-block;         
+    }
+    section h3 + p span.err + sup.badge{
+      margin-left:0;
+      position:relative; left:-0.03em;  
+    }
+    
+  
+    .summary-card{
+      border:1px solid var(--line);
+      border-left:4px solid #b00020;
+      border-radius:.5rem;
+      background:#fff;
+      padding:.7rem .8rem;
+      margin:.6rem 0 0;
+    }
+    .summary-card h4{
+      margin:0 0 .35rem;
+      font-size:1rem;
+    }
+    .summary-card ul{
+      margin:.25rem 0 0;
+      padding-left:1.2rem;
+    }
+    .summary-metrics{ display:flex; flex-wrap:wrap; gap:.5rem; margin:.4rem 0 .2rem; }
+    .summary-metrics .chip{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:.15rem .5rem;
+      background:#fafafa;
+      font-size:.9rem;
+    }
+    </style>
+    
 </head>
 <body>
   <div class="wrap">
@@ -55,11 +129,11 @@
       <p class="sub"><strong>Barkavi Sundararajan, Somayajulu (Yaji) Sripada, Ehud Reiter, University of Aberdeen</strong></p>
 
       <div class="links">
-        <a class="linkbtn" href="https://2025.inlgmeeting.org/accepted-papers.html" rel="noopener">Paper </a>
-        <a class="linkbtn" href="https://2025.inlgmeeting.org/accepted-papers.html" rel="noopener">Poster</a>
-        <a class="linkbtn" href="https://drive.google.com/drive/folders/12WhYIkPkP4MasOU7Dg2k-nr8Kxi5UM_X?usp=sharing" rel="noopener">Row data (Google Drive)</a>
-        <a class="linkbtn" href="https://drive.google.com/drive/folders/1rXU1QeRyjJcI-B1i4RTIDufUU5DT0tXA?usp=drive_link" rel="noopener">JSON data (Google Drive)</a>
-        <a class="linkbtn" href="https://github.com/BarkaviSJ/nba-input-matters" rel="noopener">Repository</a>
+        <a class="linkbtn" href="https://arxiv.org/pdf/2510.21034" target="_blank" rel="noopener">Paper </a>
+        <a class="linkbtn" href="https://2025.inlgmeeting.org/accepted-papers.html" target="_blank" rel="noopener">Poster</a>
+        <a class="linkbtn" href="https://drive.google.com/drive/folders/12WhYIkPkP4MasOU7Dg2k-nr8Kxi5UM_X?usp=sharing" target="_blank" rel="noopener">Row data (Google Drive)</a>
+        <a class="linkbtn" href="https://drive.google.com/drive/folders/1rXU1QeRyjJcI-B1i4RTIDufUU5DT0tXA?usp=drive_link" target="_blank" rel="noopener">JSON data (Google Drive)</a>
+        <a class="linkbtn" href="https://github.com/BarkaviSJ/nba-input-matters" target="_blank" rel="noopener">Repository</a>
       </div>
 
       <p class="lead">
@@ -67,11 +141,82 @@
       </p>
 
       <ul class="highlights">
-        <li>180 summaries; 3,312 labeled errors</li>
-        <li>JSON input: ~65 to 69% fewer errors vs. unstructured</li>
-        <li>Row input: ~51 to 54% fewer errors vs. unstructured</li>
+        <li>Human evaluation of <strong>180</strong> NBA game summaries</li>
+        <li><strong>3,312</strong> human-labeled factual errors</li>
+        <li><strong>JSON</strong> input: <strong>65–69%</strong> fewer errors vs. unstructured</li>
+        <li><strong>Row</strong> input: <strong>51–54%</strong> fewer errors vs. unstructured</li>
+        <li>Input structure explains <strong>&gt;80%</strong> of variance (two-way ANOVA Repeated-Measures)</li>
       </ul>
+      
     </header>
+
+        <!-- Error types table (with yellow highlight for errors) -->
+        <section>
+          <h2>Error Categories (Annotation Protocol)</h2>
+          <p class="sub">Simple protocol used to detect and label hallucinations or factual mistakes in model summaries.</p>
+          <table class="table-bordered">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+              <td><strong>NUMBER</strong></td>
+              <td>Incorrect numeric statistics (scores, rebounds, points).</td>
+              <td>
+                Errors highlighted: “The score was <span class="err">12</span>–<span class="err">8</span>.”<br/>
+                Correction: The correct score was <strong>25–22</strong>.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>NAME</strong></td>
+              <td>Wrong names of players, teams, or locations.</td>
+              <td>
+                Errors highlighted: “Assist by <span class="err">LeBron James</span>.”<br/>
+                Correction: The assist was by <strong>Jaylen Brown</strong>.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>WORD_OBJECTIVE</strong></td>
+              <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
+              <td>
+                Errors highlighted: “<span class="err">Free throws</span>brought the Rockets within range.”<br/>
+                Correction: The player actually made <strong>two layups</strong>.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>WORD_SUBJECTIVE</strong></td>
+              <td>Unverifiable opinions or subjective phrasing.</td>
+              <td>
+                Errors highlighted: “The bench <span class="err">provided a spark</span>.”<br/>
+                Explanation: They scored 6 points in the quarter (whether that is a “spark” is subjective).
+              </td>
+            </tr>
+            <tr>
+              <td><strong>CONTEXT</strong></td>
+              <td>Player incorrectly implied to belong to the wrong team in the play-by-play input.</td>
+              <td>
+                Errors highlighted: “<span class="err">Christian Wood</span> hit a buzzer-beater for the Rockets.”<br/>
+                Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>NOT_CHECKABLE</strong></td>
+              <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
+              <td>
+                Errors highlighted: “Brown had his <span class="err">career-high</span> tonight.”<br/>
+                Explanation: This cannot be verified from play-by-play logs; requires external career data.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>OTHER</strong></td>
+              <td>Any other mistake not covered above.</td>
+              <td>Miscellaneous mistake not fitting other categories.</td>
+            </tr>
+          </table>
+        </section>
+    
 
     <!-- Input data comparison -->
     <section>
@@ -84,27 +229,49 @@
       </div>
     
       <!-- Pane 1: Unstructured -->
+      <!-- Pane 1: Unstructured (full excerpt with per-event points columns) -->
       <div id="pane-unstructured" class="tabpane show">
-        <table>
-          <thead>
-            <tr><th>Time</th><th>LA Lakers</th><th>Score</th><th>Atlanta</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>5:00.0</td><td>Start of 1st overtime</td><td>—</td><td>—</td></tr>
-            <tr><td>2:56.0</td><td>A. Davis makes free throw 1 of 2</td><td>123–123</td><td>—</td></tr>
-            <tr><td>2:56.0</td><td>A. Davis makes free throw 2 of 2</td><td>124–123</td><td>—</td></tr>
-            <tr><td>2:45.0</td><td>—</td><td>124–123</td><td>D. Hunter misses 2-pt layup (block by L. James)</td></tr>
-            <tr><td>2:33.0</td><td>—</td><td>124–125</td><td>T. Young makes 2-pt layup</td></tr>
-            <tr><td>2:13.0</td><td>L. James makes 3-pt jump shot</td><td>127–125</td><td>—</td></tr>
-          </tbody>
-        </table>
-        <p class="sub">Free-text log: event semantics embedded in team columns; cells may combine multiple attributes.</p>
+        <div class="table-scroll" style="overflow-x:auto;">
+          <table class="table-bordered">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>LA Lakers</th>
+                <th>LA Pts</th>
+                <th>Score</th>
+                <th>ATL Pts</th>
+                <th>Atlanta</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>2:56.0</td><td>A. Davis makes free throw 1 of 2</td><td>1.0</td><td>123-123</td><td></td><td></td></tr>
+              <tr><td>2:56.0</td><td>A. Davis makes free throw 2 of 2</td><td>1.0</td><td>124-123</td><td></td><td></td></tr>
+              <tr><td>2:45.0</td><td></td><td></td><td>124-123</td><td></td><td>D. Hunter misses 2-pt layup from 10 ft (block by L. James)</td></tr>
+              <tr><td>2:44.0</td><td></td><td></td><td>124-123</td><td></td><td>Offensive rebound by Team</td></tr>
+              <tr><td>2:33.0</td><td></td><td></td><td>124-125</td><td>2.0</td><td>T. Young makes 2-pt layup from 2 ft</td></tr>
+              <tr><td>2:13.0</td><td>L. James makes 3-pt jump shot from 25 ft</td><td>3.0</td><td>127-125</td><td></td><td></td></tr>
+              <tr><td>2:02.0</td><td></td><td></td><td>127-125</td><td></td><td>T. Young misses 3-pt jump shot from 25 ft</td></tr>
+              <tr><td>1:58.0</td><td></td><td></td><td>127-125</td><td></td><td>Offensive rebound by C. Capela</td></tr>
+              <tr><td>1:58.0</td><td></td><td></td><td>127-127</td><td>2.0</td><td>T. Young makes 2-pt jump shot from 2 ft (assist by C. Capela)</td></tr>
+              <tr><td>1:44.0</td><td>G. Vincent makes 3-pt jump shot from 26 ft</td><td>3.0</td><td>130-127</td><td></td><td></td></tr>
+              <tr><td>1:24.0</td><td></td><td></td><td>130-129</td><td>2.0</td><td>D. Daniels makes 2-pt jump shot from 7 ft (assist by T. Young)</td></tr>
+              <tr><td>1:07.0</td><td>G. Vincent misses 2-pt jump shot from 8 ft</td><td></td><td>130-129</td><td></td><td></td></tr>
+              <tr><td>1:03.0</td><td></td><td></td><td>130-129</td><td></td><td>Defensive rebound by D. Daniels</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small">Raw unstructured log view with per-event points by side (LA Pts / ATL Pts) and running score.</p>
       </div>
+
+
+    
+
+
     
       <!-- Pane 2: Row (single 13-column table) -->
       <div id="pane-row" class="tabpane">
         <div class="table-scroll" style="overflow-x:auto;">
-          <table>
+          <table class="table-bordered">
             <thead>
               <tr>
                 <th>Time</th>
@@ -216,7 +383,7 @@
             </tbody>
           </table>
         </div>
-        <p class="sub">Single 13-column table (the LaTeX panels merged). Not-applicable attributes appear as “N/A”; in the released dataset these are stored as <code>None</code>.</p>
+        <p class="sub">Single 13-column table. Not-applicable attributes appear as “N/A”; in the released dataset these are stored as <code>None</code>.</p>
       </div>
     
       <!-- Pane 3: JSON (exactly as requested) -->
@@ -254,99 +421,61 @@
     
 
 
-
-    <!-- Error types table (with yellow highlight for errors) -->
-    <section>
-      <h2>Hallucination / Error Types with Examples</h2>
-      <table>
-        <tr>
-          <th>Category</th>
-          <th>Description</th>
-          <th>Example</th>
-        </tr>
-        <tr>
-          <td><strong>NUMBER</strong></td>
-          <td>Incorrect numeric statistics (scores, rebounds, points).</td>
-          <td>
-            Erroneous: “The score was <mark>12–8</mark>.”<br/>
-            Correction: The correct score was <strong>25–22</strong>.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>NAME</strong></td>
-          <td>Wrong names of players, teams, or locations.</td>
-          <td>
-            Erroneous: “Assist by <mark>LeBron James</mark>.”<br/>
-            Correction: The assist was by <strong>Jaylen Brown</strong>.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>WORD_OBJECTIVE</strong></td>
-          <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
-          <td>
-            Erroneous: “<mark>Free throws</mark> brought the Rockets within range.”<br/>
-            Correction: The player actually made <strong>two layups</strong>.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>WORD_SUBJECTIVE</strong></td>
-          <td>Unverifiable opinions or subjective phrasing.</td>
-          <td>
-            Erroneous: “The bench <mark>provided a spark</mark>.”<br/>
-            Correction: They scored 6 points in the quarter (whether that is a “spark” is subjective).
-          </td>
-        </tr>
-        <tr>
-          <td><strong>CONTEXT</strong></td>
-          <td>Player incorrectly implied to belong to the wrong team in the play-by-play input.</td>
-          <td>
-            Erroneous: “<mark>Christian Wood</mark> hit a buzzer-beater for the Rockets.”<br/>
-            Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>NOT_CHECKABLE</strong></td>
-          <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
-          <td>
-            Erroneous: “Brown had his <mark>career-high</mark> tonight.”<br/>
-            Correction: This cannot be verified from play-by-play logs; requires external career data.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>OTHER</strong></td>
-          <td>Any other mistake not covered above.</td>
-          <td>Erroneous: Miscellaneous mistake not fitting other categories.</td>
-        </tr>
-      </table>
-    </section>
-
     <!-- Summary examples by input type (yellow highlights for errors) -->
     <section>
       <h2>Summary Examples with Annotations</h2>
 
-      <h3 style="margin:.2rem 0 .4rem; font-size:1.05rem">Unstructured input → Llama (partial)</h3>
+      <!-- Unstructured / Llama -->
+      <h3 style="margin:.2rem 0 .4rem; font-size:1.05rem">Unstructured input: Llama3.1-70B (partial summary)</h3>
       <p>
-        The Lakers fought back, with James and Davis leading the charge. James hit
-        <mark>a pair of three-pointers</mark>, and Davis added <mark>a dunk and a layup</mark>
-        to tie the game at <mark>130</mark>–<mark>129</mark>. James and Davis combined for
-        <mark>63</mark> points. Young and <mark>Bogdanovic</mark> led the Hawks, combining for <mark>61</mark> points.
+        The Lakers fought back, however, with James and Davis leading the charge. James hit
+        <span class="err">a pair of three-pointers</span><sup class="badge">WO</sup>,
+        and Davis added <span class="err">a dunk and a layup</span><sup class="badge">WO</sup>
+        to tie the game at <span class="err">130</span><sup class="badge">U</sup>-<span class="err">129</span><sup class="badge">U</sup>.
+        Throughout the game, James and Davis were the Lakers’ top performers, combining for
+        <span class="err">63</span><sup class="badge">U</sup> points. Young and
+        <span class="err">Bogdanovic</span><sup class="badge">N</sup> led the Hawks, combining for
+        <span class="err">61</span><sup class="badge">U</sup> points.
       </p>
-      <p class="sub"> WORD OBJECTIVE, NUMBER and NAME errors. Several errors appear in event type, scoring totals, and player name.</p>
-
-      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">Row input → Qwen (partial)</h3>
+      <ul class="sub">
+        <li><strong>a pair of three-pointers</strong><sup class="badge">WO</sup>: incorrect word objective phrases from events, correct event/phrase is ‘a three-pointer’.</li>
+        <li><strong>a dunk and a layup</strong><sup class="badge">WO</sup>: incorrect events (word objective), the player made a ‘free-throw’.</li>
+        <li><strong>130 - 129</strong><sup class="badge">U</sup>: incorrect scores (numbers), the correct scores are ‘123-123.’</li>
+        <li><strong>63</strong><sup class="badge">U</sup>: incorrect score (number), the correct number/score is ‘77.’</li>
+        <li><strong>Bogdanovic</strong><sup class="badge">N</sup>: incorrect player name, the correct player name is ‘Hunter.’</li>
+        <li><strong>61</strong><sup class="badge">U</sup>: incorrect score (number), the correct number/score is ‘757.’</li>
+      </ul>
+      
+      <!-- Row / Qwen -->
+      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">Row input: Qwen2.5-72B (partial summary)</h3>
       <p>
-        Anthony Davis made a pair of free throws to tie the game at 123. LeBron James then hit a three-pointer
-        to give the Lakers a 127–125 lead, but Trae Young answered <mark>with a layup</mark> to tie it again.
-        LeBron James finished with a <mark>double</mark>-double…
+        The game saw several lead changes, with Anthony Davis making
+        <span class="err">a pair of free throws</span><sup class="badge">WO</sup> to tie the game at 123.
+        LeBron James then hit a three-pointer to give the Lakers a 127–125 lead,
+        but Trae Young answered <span class="err">with a layup</span><sup class="badge">WO</sup> to tie it again.
+        The Lakers regained the lead with a three-pointer from <strong>Gabe Vincent</strong>, but the Hawks stayed
+        close with a jump shot from Dyson Daniels. LeBron James finished with a
+        <span class="err">double</span><sup class="badge">WO</sup>-double, contributing significantly on both ends of
+        the court.
       </p>
-      <p class="sub">Errors include event substitution (“layup” vs. jump shot) and stat summary (“double” vs. triple-double).</p>
+      <ul class="sub">
+        <li><strong>a pair of free throws</strong><sup class="badge">WO</sup>: the game was tied at 123 when Davis ‘made a free-throw.’</li>
+        <li><strong>with a layup</strong><sup class="badge">WO</sup>: incorrect events (word objective), the player made ‘a jump shot.’</li>
+        <li><strong>double</strong><sup class="badge">WO</sup>: incorrect word (objective), LeBron James finished with a ‘triple-double.’</li>
+      </ul>
 
-      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">JSON input → Qwen (partial)</h3>
+      <!-- JSON / Qwen -->
+      <h3 style="margin:.8rem 0 .4rem; font-size:1.05rem">JSON input: Qwen2.5-72B (partial summary)</h3>
       <p>
         The Hawks took an early lead with a layup from Onyeka Okongwu, but the Lakers quickly
-        <mark>tied it</mark> with a three-pointer from Max Christie…
+        <span class="err">tied it</span><sup class="badge">WO</sup> with a three-pointer from Max Christie.
+        Throughout the game, LeBron James and Anthony Davis were the standout players for the Lakers, contributing
+        significantly with scoring, rebounds, and assists.
       </p>
-      <p class="sub">Phrase “tied it” is misleading; the team responded with a three-pointer but did not tie the game.</p>
+      <ul class="sub">
+        <li><strong>tied it</strong><sup class="badge">WO</sup>: word objective error, the Lakers ‘responded with’ a three-pointer, they did not tie the game.</li>
+      </ul>
+
     </section>
       <!-- Dataset -->
       <section>
