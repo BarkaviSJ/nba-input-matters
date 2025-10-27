@@ -65,8 +65,15 @@
       background: var(--mark);
       color: #91051f;               
       font-weight: 600;
+      display:inline-block; 
       padding: .05rem .25rem;      
       border-radius: .2rem;
+    }
+
+    .err + sup.badge{
+      margin-left:-0.25rem;        /* cancels the .25rem right pad on .err */
+      position:relative;
+      left:-0.01em;                 /* micro nudge; tweak -0.00–-0.03em if needed */
     }
     
     /* Superscript badge; highlighted too */
@@ -153,7 +160,8 @@
         <!-- Error types table (with yellow highlight for errors) -->
         <section>
           <h2>Error Categories (Annotation Protocol)</h2>
-          <p class="sub">Simple protocol used to detect and label hallucinations or factual mistakes in model summaries.</p>
+          <p class="sub">Shorthand used in annotations: <strong>U</strong>=Number, <strong>N</strong>=Name, <strong>WO</strong>=Word&nbsp;Objective, <strong>WS</strong>=Word&nbsp;Subjective, <strong>C</strong>=Context, <strong>X</strong>=Not&nbsp;Checkable, <strong>O</strong>=Other.</p>
+        
           <table class="table-bordered">
             <thead>
               <tr>
@@ -162,60 +170,65 @@
                 <th>Example</th>
               </tr>
             </thead>
-              <td><strong>NUMBER</strong></td>
-              <td>Incorrect numeric statistics (scores, rebounds, points).</td>
-              <td>
-                Errors highlighted: “The score was <span class="err">12</span>–<span class="err">8</span>.”<br/>
-                Correction: The correct score was <strong>25–22</strong>.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>NAME</strong></td>
-              <td>Wrong names of players, teams, or locations.</td>
-              <td>
-                Errors highlighted: “Assist by <span class="err">LeBron James</span>.”<br/>
-                Correction: The assist was by <strong>Jaylen Brown</strong>.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>WORD_OBJECTIVE</strong></td>
-              <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
-              <td>
-                Errors highlighted: “<span class="err">Free throws</span>brought the Rockets within range.”<br/>
-                Correction: The player actually made <strong>two layups</strong>.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>WORD_SUBJECTIVE</strong></td>
-              <td>Unverifiable opinions or subjective phrasing.</td>
-              <td>
-                Errors highlighted: “The bench <span class="err">provided a spark</span>.”<br/>
-                Explanation: They scored 6 points in the quarter (whether that is a “spark” is subjective).
-              </td>
-            </tr>
-            <tr>
-              <td><strong>CONTEXT</strong></td>
-              <td>Player incorrectly implied to belong to the wrong team in the play-by-play input.</td>
-              <td>
-                Errors highlighted: “<span class="err">Christian Wood</span> hit a buzzer-beater for the Rockets.”<br/>
-                Correction: Christian Wood was not on the Rockets in 2025; the correct player was <strong>Cam Whitmore</strong>.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>NOT_CHECKABLE</strong></td>
-              <td>Requires outside knowledge beyond the PBP (career highs, league rankings).</td>
-              <td>
-                Errors highlighted: “Brown had his <span class="err">career-high</span> tonight.”<br/>
-                Explanation: This cannot be verified from play-by-play logs; requires external career data.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>OTHER</strong></td>
-              <td>Any other mistake not covered above.</td>
-              <td>Miscellaneous mistake not fitting other categories.</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td><strong>NUMBER</strong><sup class="badge">U</sup></td>
+                <td>Incorrect numeric statistics (scores, rebounds, points).</td>
+                <td>
+                  Errors highlighted: “The score was <span class="err">12</span><sup class="badge">U</sup>–<span class="err">8</span><sup class="badge">U</sup>.”<br/>
+                  Correction: The correct score was <strong>25–22</strong>.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>NAME</strong><sup class="badge">N</sup></td>
+                <td>Wrong names of players, teams, or locations.</td>
+                <td>
+                  Errors highlighted: “Assist by <span class="err">LeBron James</span><sup class="badge">N</sup>.”<br/>
+                  Correction: The assist was by <strong>Jaylen Brown</strong>.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>WORD_OBJECTIVE</strong><sup class="badge">WO</sup></td>
+                <td>Factually wrong but checkable descriptions (shot type, foul type, etc.).</td>
+                <td>
+                  Errors highlighted: “<span class="err">Free throws</span><sup class="badge">WO</sup> brought the Rockets within range.”<br/>
+                  Correction: The player actually made <strong>two layups</strong>.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>WORD_SUBJECTIVE</strong><sup class="badge">WS</sup></td>
+                <td>Unverifiable opinions or subjective phrasing.</td>
+                <td>
+                  Errors highlighted: “The bench <span class="err">provided a spark</span><sup class="badge">WS</sup>.”<br/>
+                  Explanation: They scored 6 points in the quarter (whether that is a “spark” is subjective).
+                </td>
+              </tr>
+              <tr>
+                <td><strong>CONTEXT</strong><sup class="badge">C</sup></td>
+                <td>Player/team context wrong (e.g., implied wrong team/season fit for the event).</td>
+                <td>
+                  Errors highlighted: “<span class="err">Christian Wood</span><sup class="badge">C</sup> hit a buzzer-beater for the Rockets.”<br/>
+                  Correction: Christian Wood was not on the Rockets in this context; the correct player was <strong>Cam Whitmore</strong>.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>NOT_CHECKABLE</strong><sup class="badge">X</sup></td>
+                <td>Requires outside knowledge beyond the play-by-play (career highs, league rankings).</td>
+                <td>
+                  Errors highlighted: “Brown had his <span class="err">career-high</span><sup class="badge">X</sup> tonight.”<br/>
+                  Explanation: Cannot be verified from play-by-play logs; needs external career data.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>OTHER</strong><sup class="badge">O</sup></td>
+                <td>Any other mistake not covered above.</td>
+                <td>
+                  Miscellaneous mistake not fitting other categories.
+                </td>
+              </tr>
+            </tbody>
           </table>
-        </section>
+        </section>        
     
 
     <!-- Input data comparison -->
